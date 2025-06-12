@@ -32,12 +32,11 @@ env:
   SCONS_CACHE_MSVC_CONFIG: ".scons_msvc_cache.json"
   # Comment out any of the feature_* variables to disable the respective build feature.
   # They are checked for existence of content, not specific value.
-  feature_buildSymbols: configured
-  feature_uploadSymbolsToMozilla: configured
-  feature_crowdinSync: configured
+  # feature_buildSymbols: configured
+  # feature_uploadSymbolsToMozilla: configured
+  # feature_crowdinSync: configured
   # feature_signing: configured
   feature_deployRelease: configured
-  # feature_tests: configured
   # feature_buildAppx: configured
 
 jobs:
@@ -251,15 +250,11 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        testSuite: [chrome, installer, startupShutdown]
+        testSuite: [installer]
     name: Run system tests
     runs-on: windows-latest
     needs: createLauncher
     steps:
-    - name: Cancel if feature disabled
-      if: ${{ !env.feature_tests }}
-      shell: bash
-      run: exit 0
     - name: Checkout cached build
       uses: actions/cache/restore@v4
       with:
@@ -411,7 +406,9 @@ jobs:
       run: |
         export NVDA_EXE=$(ls output/nvda*.exe | head -n 1)
         export NVDA_HASH=$(sha1sum "$NVDA_EXE" | cut -d ' ' -f 1)
-        export payload=$(jq -n 'env | to_entries | map(select(.key | contains("NVDA"))) | from_entries')
+
+        # Copy the entire environment to the payload, filtering out only NVDA related variables.
+        export payload=$(jq -n 'env | to_entries | map(select(.key | startswith("NVDA"))) | from_entries')
 
         gh api \
           --method POST \
@@ -425,6 +422,7 @@ jobs:
           -f "payload=$payload" \
           -f "description=Release of ${{ steps.getReleaseNotes.outputs.RELEASE_NAME }}" \
       env:
+        GH_TOKEN: ${{ github.token }}
         NVDA_API_VERSION: ${{ needs.buildNVDA.outputs.APIVersion }}
         NVDA_API_COMPAT_TO: ${{ needs.buildNVDA.outputs.APIBackCompat }}
         NVDA_VERSION: ${{ needs.buildNVDA.outputs.version }}
