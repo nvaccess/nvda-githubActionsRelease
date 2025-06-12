@@ -417,7 +417,7 @@ jobs:
           /repos/${{ github.repository }}/deployments \
           -f "task=release" \
           -f "ref=${{ github.ref_name }}" \
-          -f "auto_merge=false" \
+          --raw-field "auto_merge=false" \
           -f "environment=production" \
           -f "payload=$payload" \
           -f "description=Release of ${{ steps.getReleaseNotes.outputs.RELEASE_NAME }}"
