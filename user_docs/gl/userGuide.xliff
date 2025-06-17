@@ -5701,16 +5701,6 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <target>Soporte para moitas pantallas de braille efímero incluíndo a capacidade de detectar automáticamente moitas delas así como a entrada de braille computerizado para pantallas braille que tenñan un teclado braille</target>
       </segment>
     </unit>
-    <unit id="d4b3f10b-2a9c-4203-a505-80a6e4190616">
-      <notes>
-        <note appliesTo="source">line: 31</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="initial">
-        <source>Ability to [connect to and control another computer running NVDA](#RemoteAccess) for remote assistance or collaboration</source>
-        <target>Ability to [connect to and control another computer running NVDA](#RemoteAccess) for remote assistance or collaboration</target>
-      </segment>
-    </unit>
     <unit id="3621dc26-377b-4133-8c66-67736611187a">
       <notes>
         <note appliesTo="source">line: 32</note>
@@ -5749,16 +5739,6 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <segment state="final">
         <source>Support for modern Windows Operating Systems including both 32 and 64 bit variants</source>
         <target>Soporte para Sistemas Operativos Windows modernos incluíndo variantes de 32 e 64 bit</target>
-      </segment>
-    </unit>
-    <unit id="feb4bf8e-636e-485d-a629-f9ee30d4c787">
-      <notes>
-        <note appliesTo="source">line: 36</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="initial">
-        <source>Ability to run during Windows sign-in and [other secure screens](#SecureScreens)</source>
-        <target>Ability to run during Windows sign-in and [other secure screens](#SecureScreens)</target>
       </segment>
     </unit>
     <unit id="f764b6db-1280-473f-a474-283d20038a1b">
@@ -25224,17 +25204,6 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <target>Se desexas cambiar o espello da tenda de complementos, preme o botón "Cambiar..." para abrir o [diálogo Establecer o espello da tenda de complementos] (#SetURLDialog).</target>
       </segment>
     </unit>
-    <unit id="2657d7be-4212-4e5b-b97d-a85dfe7476b6">
-      <notes>
-        <note appliesTo="source">line: 3107</note>
-        <note appliesTo="source">prefix: #### </note>
-        <note appliesTo="source">suffix:  {#RemoteSettings}</note>
-      </notes>
-      <segment state="initial">
-        <source>Remote Access Settings</source>
-        <target>Remote Access Settings</target>
-      </segment>
-    </unit>
     <unit id="34d45e86-1a4c-470a-9fb6-4812a2ce7c7e">
       <notes>
         <note appliesTo="source">line: 3109</note>
@@ -25282,24 +25251,6 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <target>Por favor ten en conta que para continuar unha sesión de acceso remoto en pantallas seguras como as solicitudes de control de contas de usuario, debes activar esta configuración, gardar os cambios e, a continuación, [copiar a súa configuración no directorio de configuración do sistema de NVDA](#GeneralSettingsCopySettings).</target>
       </segment>
     </unit>
-    <unit id="75044417-01a7-42a4-b008-a49b11a8d746">
-      <notes>
-        <note appliesTo="source">line: 3118</note>
-      </notes>
-      <segment state="initial">
-        <source>Remote Access will only continue sessions started by the installed copy of NVDA on secure desktops.</source>
-        <target>Remote Access will only continue sessions started by the installed copy of NVDA on secure desktops.</target>
-      </segment>
-    </unit>
-    <unit id="584a22fd-b482-4c2b-8b83-7028e6ceb2fd">
-      <notes>
-        <note appliesTo="source">line: 3119</note>
-      </notes>
-      <segment state="initial">
-        <source>This means that you cannot, for instance, start a Remote Access session with a portable copy of NVDA and have the session continue on secure screens.</source>
-        <target>This means that you cannot, for instance, start a Remote Access session with a portable copy of NVDA and have the session continue on secure screens.</target>
-      </segment>
-    </unit>
     <unit id="59c923d6-7942-4e2d-bd70-4916b46ad34a">
       <notes>
         <note appliesTo="source">line: 3121</note>
@@ -25307,44 +25258,6 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <segment state="final">
         <source>The following options are only available if Remote Access is enabled.</source>
         <target>As seguintes opcións só están dispoñibles se o acceso remoto está activado.</target>
-      </segment>
-    </unit>
-    <unit id="f7926c47-0767-4ec0-aff1-fd42b391c4cc">
-      <notes>
-        <note appliesTo="source">line: 3123</note>
-        <note appliesTo="source">prefix: ##### </note>
-        <note appliesTo="source">suffix:  {#RemoteConfirmDisconnect}</note>
-      </notes>
-      <segment state="initial">
-        <source>Confirm before disconnecting when controlled</source>
-        <target>Confirm before disconnecting when controlled</target>
-      </segment>
-    </unit>
-    <unit id="36fe7e4c-6119-4f13-9138-8ad9781efc57">
-      <notes>
-        <note appliesTo="source">line: 3125</note>
-      </notes>
-      <segment state="initial">
-        <source>This option controls whether confirmation is required before disconnecting from a Remote Access session when connected as the controlled computer.</source>
-        <target>This option controls whether confirmation is required before disconnecting from a Remote Access session when connected as the controlled computer.</target>
-      </segment>
-    </unit>
-    <unit id="da0acbbd-feb5-4a61-a595-c0c4479636c6">
-      <notes>
-        <note appliesTo="source">line: 3127</note>
-      </notes>
-      <segment state="initial">
-        <source>When checked, NVDA will ask for confirmation before disconnecting.</source>
-        <target>When checked, NVDA will ask for confirmation before disconnecting.</target>
-      </segment>
-    </unit>
-    <unit id="c64ad95a-8244-483b-a4d2-298aaa04d808">
-      <notes>
-        <note appliesTo="source">line: 3128</note>
-      </notes>
-      <segment state="initial">
-        <source>When unchecked, NVDA will disconnect immediately without confirmation.</source>
-        <target>When unchecked, NVDA will disconnect immediately without confirmation.</target>
       </segment>
     </unit>
     <unit id="4b142507-9401-4d1f-b8da-cb443c3cb501">
@@ -25385,15 +25298,6 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <target>Ten coidado ao activar esta opción, xa que pode aumentar o risco de acceso non autorizado ao seu ordenador.</target>
       </segment>
     </unit>
-    <unit id="8d685a96-562f-4854-b21c-0cd126cb21d5">
-      <notes>
-        <note appliesTo="source">line: 3137</note>
-      </notes>
-      <segment state="initial">
-        <source>For further details on the following options, please refer to the [Setting Up a Remote Access Session section](#RemoteAccessSetup)</source>
-        <target>For further details on the following options, please refer to the [Setting Up a Remote Access Session section](#RemoteAccessSetup)</target>
-      </segment>
-    </unit>
     <unit id="5015a520-5bed-409d-9f4f-743e2fa0cb6d">
       <notes>
         <note appliesTo="source">line: 3139</note>
@@ -25432,28 +25336,6 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <segment state="final">
         <source>Option |Behaviour </source>
         <target>Opción |comportamento </target>
-      </segment>
-    </unit>
-    <unit id="fc75148d-f685-4daf-a643-aa0e7ded2ee0">
-      <notes>
-        <note appliesTo="source">line: 3147</note>
-        <note appliesTo="source">prefix: |</note>
-        <note appliesTo="source">suffix: |</note>
-      </notes>
-      <segment state="initial">
-        <source>Allow this computer to be controlled |Use this computer as the "controlled" computer. This allows the operator of the "controlling" computer to use this computer as if they were sitting in front of it. </source>
-        <target>Allow this computer to be controlled |Use this computer as the "controlled" computer. This allows the operator of the "controlling" computer to use this computer as if they were sitting in front of it. </target>
-      </segment>
-    </unit>
-    <unit id="b9e02315-fd92-42e4-941a-68e452bb789f">
-      <notes>
-        <note appliesTo="source">line: 3148</note>
-        <note appliesTo="source">prefix: |</note>
-        <note appliesTo="source">suffix: |</note>
-      </notes>
-      <segment state="initial">
-        <source>Control another computer |Use this computer as the "controlling" computer. This allows you to execute commands on the remote computer. </source>
-        <target>Control another computer |Use this computer as the "controlling" computer. This allows you to execute commands on the remote computer. </target>
       </segment>
     </unit>
     <unit id="af02981e-74c9-4832-be1a-9596b2b1ad2a">
@@ -25632,15 +25514,6 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <segment state="final">
         <source>This button allows you to forget the fingerprints of all previously trusted Remote Access servers.</source>
         <target>Este botón permíteche esquecer as pegadas dixitais de todos os servidores de acceso remoto de confianza.</target>
-      </segment>
-    </unit>
-    <unit id="cb352821-53f2-4c81-8da5-d04a2190e726">
-      <notes>
-        <note appliesTo="source">line: 3183</note>
-      </notes>
-      <segment state="initial">
-        <source>This means that you will again be asked whether to connect to all unrecognised Remote Access servers, even ones that you have previously connected to.</source>
-        <target>This means that you will again be asked whether to connect to all unrecognised Remote Access servers, even ones that you have previously connected to.</target>
       </segment>
     </unit>
     <unit id="869c3bb3-208a-45f7-8a08-e3b9c2e82afd">
@@ -28922,15 +28795,6 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <target>O acceso remoto está desactivado de forma predeterminada pola túa seguridade.</target>
       </segment>
     </unit>
-    <unit id="ead81db6-306f-43cc-a1f8-40c7328a9c9d">
-      <notes>
-        <note appliesTo="source">line: 3704</note>
-      </notes>
-      <segment state="initial">
-        <source>You can enable Remote Access [in Remote Access settings](#RemoteSettings).</source>
-        <target>You can enable Remote Access [in Remote Access settings](#RemoteSettings).</target>
-      </segment>
-    </unit>
     <unit id="b0890d69-c731-4ac7-ac2b-700a3bcbce31">
       <notes>
         <note appliesTo="source">line: 3706</note>
@@ -28951,285 +28815,6 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <target>Antes de comezar, asegúrate de que o NVDA estea instalado e funcionando nos dous computadores.</target>
       </segment>
     </unit>
-    <unit id="88fcd8b4-add6-4ecf-9f4d-1e223ed9d021">
-      <notes>
-        <note appliesTo="source">line: 3709</note>
-      </notes>
-      <segment state="initial">
-        <source>Also ensure that the Enable Remote Access checkbox [in Remote Access settings](#RemoteSettings) is checked on both computers.</source>
-        <target>Also ensure that the Enable Remote Access checkbox [in Remote Access settings](#RemoteSettings) is checked on both computers.</target>
-      </segment>
-    </unit>
-    <unit id="09ac6e0e-f092-4b9e-b319-5abcadb9abb8">
-      <notes>
-        <note appliesTo="source">line: 3710</note>
-      </notes>
-      <segment state="initial">
-        <source>The remote access feature will then be available from the Tools menu in NVDA; there's no need for additional downloads or installations.</source>
-        <target>The remote access feature will then be available from the Tools menu in NVDA; there's no need for additional downloads or installations.</target>
-      </segment>
-    </unit>
-    <unit id="eafcf2e7-dfce-4bad-b792-268912a360ca">
-      <notes>
-        <note appliesTo="source">line: 3712</note>
-      </notes>
-      <segment state="initial">
-        <source>If NVDA is running in [secure mode](#SecureMode), you cannot manually initiate a new Remote Access session.</source>
-        <target>If NVDA is running in [secure mode](#SecureMode), you cannot manually initiate a new Remote Access session.</target>
-      </segment>
-    </unit>
-    <unit id="b98ba472-736b-4064-a635-a06206770515">
-      <notes>
-        <note appliesTo="source">line: 3713</note>
-      </notes>
-      <segment state="initial">
-        <source>However, NVDA will still automatically start a new Remote Access session if configured to do so with the [Automatically connect after NVDA starts](#RemoteAutoconnect) setting.</source>
-        <target>However, NVDA will still automatically start a new Remote Access session if configured to do so with the [Automatically connect after NVDA starts](#RemoteAutoconnect) setting.</target>
-      </segment>
-    </unit>
-    <unit id="60077139-084d-4afd-b7ad-fb845737bd70">
-      <notes>
-        <note appliesTo="source">line: 3714</note>
-      </notes>
-      <segment state="initial">
-        <source>You can still manually disconnect in secure mode.</source>
-        <target>You can still manually disconnect in secure mode.</target>
-      </segment>
-    </unit>
-    <unit id="0d4b737e-ca74-4357-88ff-453f773adacc">
-      <notes>
-        <note appliesTo="source">line: 3716</note>
-        <note appliesTo="source">prefix: ### </note>
-        <note appliesTo="source">suffix:  {#RemoteAccessSetup}</note>
-      </notes>
-      <segment state="initial">
-        <source>Setting Up a Remote Access Session</source>
-        <target>Setting Up a Remote Access Session</target>
-      </segment>
-    </unit>
-    <unit id="f32eba5f-9e5e-44ae-b4ff-535144c504da">
-      <notes>
-        <note appliesTo="source">line: 3718</note>
-      </notes>
-      <segment state="initial">
-        <source>Remote access sessions are configured via the Remote Access connection dialog.</source>
-        <target>Remote access sessions are configured via the Remote Access connection dialog.</target>
-      </segment>
-    </unit>
-    <unit id="c30ddb9a-50c5-416c-a25d-46508dfc7432">
-      <notes>
-        <note appliesTo="source">line: 3719</note>
-      </notes>
-      <segment state="initial">
-        <source>Open the NVDA menu and select Tools, then "Remote Access", then "Connect...".</source>
-        <target>Open the NVDA menu and select Tools, then "Remote Access", then "Connect...".</target>
-      </segment>
-    </unit>
-    <unit id="a85bf4ba-f2a5-4d8d-a16a-3489c727d330">
-      <notes>
-        <note appliesTo="source">line: 3720</note>
-      </notes>
-      <segment state="initial">
-        <source>Or from anywhere press `NVDA+alt+r`.</source>
-        <target>Or from anywhere press `NVDA+alt+r`.</target>
-      </segment>
-    </unit>
-    <unit id="26584c3b-625c-4312-8d12-f46fee6648c4">
-      <notes>
-        <note appliesTo="source">line: 3722</note>
-        <note appliesTo="source">prefix: #### </note>
-        <note appliesTo="source">suffix:  {#RemoteAccessMode}</note>
-      </notes>
-      <segment state="initial">
-        <source>Mode Selection (Controlling or Controlled)</source>
-        <target>Mode Selection (Controlling or Controlled)</target>
-      </segment>
-    </unit>
-    <unit id="41731c56-a34f-4506-bb60-144bfae68ac9">
-      <notes>
-        <note appliesTo="source">line: 3724</note>
-      </notes>
-      <segment state="initial">
-        <source>You'll need to decide which computer will be controlled (the controlled computer) and which will be controlling (the controlling computer).</source>
-        <target>You'll need to decide which computer will be controlled (the controlled computer) and which will be controlling (the controlling computer).</target>
-      </segment>
-    </unit>
-    <unit id="f64f101a-b693-4442-a9cb-64d2c0e5ee00">
-      <notes>
-        <note appliesTo="source">line: 3726</note>
-      </notes>
-      <segment state="initial">
-        <source>the mode combo box allows you to choose whether this computer will be controlled (Another person will interact with your computer) or controlling (you will interact with someone else's computer).</source>
-        <target>the mode combo box allows you to choose whether this computer will be controlled (Another person will interact with your computer) or controlling (you will interact with someone else's computer).</target>
-      </segment>
-    </unit>
-    <unit id="e1c1a5cb-7290-4da4-aea3-9702dd592d7b">
-      <notes>
-        <note appliesTo="source">line: 3728</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="initial">
-        <source>If you require another person to help you with your computer, choose "Allow this computer to be controlled".</source>
-        <target>If you require another person to help you with your computer, choose "Allow this computer to be controlled".</target>
-      </segment>
-    </unit>
-    <unit id="b7f7a308-38b8-4a39-8178-ef41f7dfcf7e">
-      <notes>
-        <note appliesTo="source">line: 3729</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="initial">
-        <source>If you are going to help someone with their computer, choose "Control another computer".</source>
-        <target>If you are going to help someone with their computer, choose "Control another computer".</target>
-      </segment>
-    </unit>
-    <unit id="010cb88b-782e-4e10-b0b4-24515adf6228">
-      <notes>
-        <note appliesTo="source">line: 3731</note>
-        <note appliesTo="source">prefix: #### </note>
-        <note appliesTo="source">suffix:  {#RemoteAccessJoin}</note>
-      </notes>
-      <segment state="initial">
-        <source>Connecting to an existing server (Host and Key Provided)</source>
-        <target>Connecting to an existing server (Host and Key Provided)</target>
-      </segment>
-    </unit>
-    <unit id="e6e421ec-9b16-49ef-8159-ec0d465d01ff">
-      <notes>
-        <note appliesTo="source">line: 3733</note>
-      </notes>
-      <segment state="initial">
-        <source>In this case, the other person has either started the connection via a relay server, or is hosting the connection locally.</source>
-        <target>In this case, the other person has either started the connection via a relay server, or is hosting the connection locally.</target>
-      </segment>
-    </unit>
-    <unit id="ae69842b-b04f-4f70-bcbd-aeb074c53172">
-      <notes>
-        <note appliesTo="source">line: 3735</note>
-        <note appliesTo="source">prefix: 1. </note>
-      </notes>
-      <segment state="initial">
-        <source>For Server, choose "Use existing".</source>
-        <target>For Server, choose "Use existing".</target>
-      </segment>
-    </unit>
-    <unit id="5d8fcfa9-7ab8-4b8d-b126-94dedeed10b3">
-      <notes>
-        <note appliesTo="source">line: 3736</note>
-        <note appliesTo="source">prefix: 1. </note>
-      </notes>
-      <segment state="initial">
-        <source>In the Host field, Enter the host address (and port if also given).</source>
-        <target>In the Host field, Enter the host address (and port if also given).</target>
-      </segment>
-    </unit>
-    <unit id="578430bb-9fd4-44c0-8a9c-eb0dd029fd52">
-      <notes>
-        <note appliesTo="source">line: 3737</note>
-        <note appliesTo="source">prefix:   * </note>
-      </notes>
-      <segment state="initial">
-        <source>You may include the port to connect on by appending a colon (":") and the port number to the host address.</source>
-        <target>You may include the port to connect on by appending a colon (":") and the port number to the host address.</target>
-      </segment>
-    </unit>
-    <unit id="38d8e6b4-a697-4e93-81e9-ec8f19c3e0d4">
-      <notes>
-        <note appliesTo="source">line: 3738</note>
-      </notes>
-      <segment state="initial">
-        <source>For example, `example.com:1234`.</source>
-        <target>For example, `example.com:1234`.</target>
-      </segment>
-    </unit>
-    <unit id="c0c4cd99-9bc9-46e6-8fb9-1b39fcfc2acc">
-      <notes>
-        <note appliesTo="source">line: 3739</note>
-        <note appliesTo="source">prefix: 1. </note>
-      </notes>
-      <segment state="initial">
-        <source>In the Key field, enter the key provided.</source>
-        <target>In the Key field, enter the key provided.</target>
-      </segment>
-    </unit>
-    <unit id="878edd88-1664-4aaa-ba54-dbf1e2e36799">
-      <notes>
-        <note appliesTo="source">line: 3740</note>
-      </notes>
-      <segment state="initial">
-        <source>Be careful to type the key exactly as given.</source>
-        <target>Be careful to type the key exactly as given.</target>
-      </segment>
-    </unit>
-    <unit id="49d587fc-7af4-4cce-a2f7-9cfeaf1600f1">
-      <notes>
-        <note appliesTo="source">line: 3741</note>
-        <note appliesTo="source">prefix: 1. </note>
-      </notes>
-      <segment state="initial">
-        <source>Press OK.</source>
-        <target>Press OK.</target>
-      </segment>
-    </unit>
-    <unit id="98fd4d64-bcff-4df7-8bed-2842656ac8ed">
-      <notes>
-        <note appliesTo="source">line: 3743</note>
-        <note appliesTo="source">prefix: #### </note>
-        <note appliesTo="source">suffix:  {#RemoteAccessConnectRelay}</note>
-      </notes>
-      <segment state="initial">
-        <source>Starting a Connection Via a Relay Server</source>
-        <target>Starting a Connection Via a Relay Server</target>
-      </segment>
-    </unit>
-    <unit id="c51463f3-0557-44a0-9bd4-0916072b661a">
-      <notes>
-        <note appliesTo="source">line: 3745</note>
-      </notes>
-      <segment state="initial">
-        <source>If allowing another person to connect to you over the internet, the easiest option is to use a relay server. To do this:</source>
-        <target>If allowing another person to connect to you over the internet, the easiest option is to use a relay server. To do this:</target>
-      </segment>
-    </unit>
-    <unit id="b05aa089-8777-487e-a0b1-4c7c0d9a2dd0">
-      <notes>
-        <note appliesTo="source">line: 3747</note>
-        <note appliesTo="source">prefix: 1. </note>
-      </notes>
-      <segment state="initial">
-        <source>For Server, choose "Use existing".</source>
-        <target>For Server, choose "Use existing".</target>
-      </segment>
-    </unit>
-    <unit id="f03852ad-57dc-483f-902d-ef5bae198153">
-      <notes>
-        <note appliesTo="source">line: 3748</note>
-        <note appliesTo="source">prefix: 1. </note>
-      </notes>
-      <segment state="initial">
-        <source>For host, provide the host name of a relay server, such as `nvdaremote.com`.</source>
-        <target>For host, provide the host name of a relay server, such as `nvdaremote.com`.</target>
-      </segment>
-    </unit>
-    <unit id="c53b8b77-6350-4f5f-87fe-a4c25fb228d0">
-      <notes>
-        <note appliesTo="source">line: 3749</note>
-      </notes>
-      <segment state="initial">
-        <source>You will need to provide this address to the other person.</source>
-        <target>You will need to provide this address to the other person.</target>
-      </segment>
-    </unit>
-    <unit id="67d0c8e1-21f7-4e1a-9075-ea48966a7c5c">
-      <notes>
-        <note appliesTo="source">line: 3750</note>
-        <note appliesTo="source">prefix:   * </note>
-      </notes>
-      <segment state="initial">
-        <source>You may include the port to connect on by appending a colon (":") and the port number to the host.</source>
-        <target>You may include the port to connect on by appending a colon (":") and the port number to the host.</target>
-      </segment>
-    </unit>
     <unit id="4d6dd8e9-fe5a-440e-ad54-60c0faec6a44">
       <notes>
         <note appliesTo="source">line: 3751</note>
@@ -29237,239 +28822,6 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <segment state="final">
         <source>For example, `example.com:1234`.</source>
         <target>Por exemplo, `example.com:1234`.</target>
-      </segment>
-    </unit>
-    <unit id="dada18fb-997b-4047-9346-4f9d438e04a6">
-      <notes>
-        <note appliesTo="source">line: 3752</note>
-        <note appliesTo="source">prefix: 1. </note>
-      </notes>
-      <segment state="initial">
-        <source>For key: come up with a long, hard to guess key, or press the "Generate Key" button to have one automatically generated.</source>
-        <target>For key: come up with a long, hard to guess key, or press the "Generate Key" button to have one automatically generated.</target>
-      </segment>
-    </unit>
-    <unit id="c6562b30-a5a0-42e4-9cca-38e9c7880eb4">
-      <notes>
-        <note appliesTo="source">line: 3753</note>
-      </notes>
-      <segment state="initial">
-        <source>You will need to provide this to the other person.</source>
-        <target>You will need to provide this to the other person.</target>
-      </segment>
-    </unit>
-    <unit id="8aa95463-145b-4050-a99e-06740a395370">
-      <notes>
-        <note appliesTo="source">line: 3754</note>
-        <note appliesTo="source">prefix:   * </note>
-      </notes>
-      <segment state="initial">
-        <source>Note that the key acts as both the identifier for the session and the password, so it is very important it is hard to guess.</source>
-        <target>Note that the key acts as both the identifier for the session and the password, so it is very important it is hard to guess.</target>
-      </segment>
-    </unit>
-    <unit id="4e76d0e7-ce86-4e4e-8189-2ccfcb7da8f8">
-      <notes>
-        <note appliesTo="source">line: 3755</note>
-        <note appliesTo="source">prefix: 1. </note>
-      </notes>
-      <segment state="initial">
-        <source>Press OK.</source>
-        <target>Press OK.</target>
-      </segment>
-    </unit>
-    <unit id="883a9a99-5b7a-42ab-a817-f3df77ebda00">
-      <notes>
-        <note appliesTo="source">line: 3756</note>
-        <note appliesTo="source">prefix: 1. </note>
-      </notes>
-      <segment state="initial">
-        <source>Provide the connection details (such as host and key) to the other person so they can connect.</source>
-        <target>Provide the connection details (such as host and key) to the other person so they can connect.</target>
-      </segment>
-    </unit>
-    <unit id="3f5e8a31-df5a-4fde-8994-ab58a2862b44">
-      <notes>
-        <note appliesTo="source">line: 3758</note>
-        <note appliesTo="source">prefix: #### </note>
-        <note appliesTo="source">suffix:  {#RemoteAccessConnectSelfHosted}</note>
-      </notes>
-      <segment state="initial">
-        <source>Using NVDA as the server</source>
-        <target>Using NVDA as the server</target>
-      </segment>
-    </unit>
-    <unit id="109cfb8f-4e5d-4a86-ba85-018e75baa407">
-      <notes>
-        <note appliesTo="source">line: 3760</note>
-      </notes>
-      <segment state="initial">
-        <source>If you do not wish to use a relay server or you are connecting over a local network:</source>
-        <target>If you do not wish to use a relay server or you are connecting over a local network:</target>
-      </segment>
-    </unit>
-    <unit id="fb335f2e-d0b8-4c17-989d-c5d6770e58f3">
-      <notes>
-        <note appliesTo="source">line: 3762</note>
-        <note appliesTo="source">prefix: 1. </note>
-      </notes>
-      <segment state="initial">
-        <source>For Server, choose "Host locally".</source>
-        <target>For Server, choose "Host locally".</target>
-      </segment>
-    </unit>
-    <unit id="846fc439-9a66-497d-886e-8bc39821671e">
-      <notes>
-        <note appliesTo="source">line: 3763</note>
-        <note appliesTo="source">prefix: 1. </note>
-      </notes>
-      <segment state="initial">
-        <source>If connecting over the internet, you can press the "Get External IP" button to show your external IP (internet visible) address.</source>
-        <target>If connecting over the internet, you can press the "Get External IP" button to show your external IP (internet visible) address.</target>
-      </segment>
-    </unit>
-    <unit id="aa2e3179-151a-4738-9b56-e062a5333319">
-      <notes>
-        <note appliesTo="source">line: 3764</note>
-      </notes>
-      <segment state="initial">
-        <source>You will need to provide this external IP to the other person.</source>
-        <target>You will need to provide this external IP to the other person.</target>
-      </segment>
-    </unit>
-    <unit id="3c02f05b-716a-44ea-a43b-a1ed03f5264b">
-      <notes>
-        <note appliesTo="source">line: 3765</note>
-        <note appliesTo="source">prefix: 1. </note>
-      </notes>
-      <segment state="initial">
-        <source>If connecting over a local network, you will need to provide the other person with your local IP.</source>
-        <target>If connecting over a local network, you will need to provide the other person with your local IP.</target>
-      </segment>
-    </unit>
-    <unit id="f3375fe8-814b-4575-9b27-c0b18bd41afa">
-      <notes>
-        <note appliesTo="source">line: 3766</note>
-      </notes>
-      <segment state="initial">
-        <source>Locating this is not covered in this documentation.</source>
-        <target>Locating this is not covered in this documentation.</target>
-      </segment>
-    </unit>
-    <unit id="65edbd6b-3f1e-4adb-a555-4fb4cbb42e81">
-      <notes>
-        <note appliesTo="source">line: 3767</note>
-        <note appliesTo="source">prefix: 1. </note>
-      </notes>
-      <segment state="initial">
-        <source>For Port, enter the port you want to use for incoming Remote connections.</source>
-        <target>For Port, enter the port you want to use for incoming Remote connections.</target>
-      </segment>
-    </unit>
-    <unit id="04dd0e4f-c6d9-4dcc-ba47-9c571106c73a">
-      <notes>
-        <note appliesTo="source">line: 3768</note>
-      </notes>
-      <segment state="initial">
-        <source>The other person will also need this.</source>
-        <target>The other person will also need this.</target>
-      </segment>
-    </unit>
-    <unit id="7f112026-41f8-425e-83b3-1aa35e99d106">
-      <notes>
-        <note appliesTo="source">line: 3769</note>
-        <note appliesTo="source">prefix:   * </note>
-      </notes>
-      <segment state="initial">
-        <source>This should be a port that is not used by any other services.</source>
-        <target>This should be a port that is not used by any other services.</target>
-      </segment>
-    </unit>
-    <unit id="be83df76-ec79-4c78-846d-bdfeb43094dc">
-      <notes>
-        <note appliesTo="source">line: 3770</note>
-        <note appliesTo="source">prefix:   * </note>
-      </notes>
-      <segment state="initial">
-        <source>By default, Remote Access uses port 6837.</source>
-        <target>By default, Remote Access uses port 6837.</target>
-      </segment>
-    </unit>
-    <unit id="c01ef72c-1bed-4db3-8cc0-80fc6e1a30e8">
-      <notes>
-        <note appliesTo="source">line: 3771</note>
-        <note appliesTo="source">prefix:   * </note>
-      </notes>
-      <segment state="initial">
-        <source>If connecting over the internet, the port may need to be forwarded.</source>
-        <target>If connecting over the internet, the port may need to be forwarded.</target>
-      </segment>
-    </unit>
-    <unit id="7c7e46ab-fd29-4691-ab41-452a2ef3eb15">
-      <notes>
-        <note appliesTo="source">line: 3772</note>
-      </notes>
-      <segment state="initial">
-        <source>  This documentation does not cover how to forward ports.</source>
-        <target>  This documentation does not cover how to forward ports.</target>
-      </segment>
-    </unit>
-    <unit id="59c85e24-7c80-4162-901c-02379194a393">
-      <notes>
-        <note appliesTo="source">line: 3773</note>
-      </notes>
-      <segment state="initial">
-        <source>  You may need to contact your network administrator to do this.</source>
-        <target>  You may need to contact your network administrator to do this.</target>
-      </segment>
-    </unit>
-    <unit id="d995902d-8e11-47a8-9306-aab1445ce6b9">
-      <notes>
-        <note appliesTo="source">line: 3774</note>
-        <note appliesTo="source">prefix: 1. </note>
-      </notes>
-      <segment state="initial">
-        <source>For key: come up with a long, hard to guess key, or press the "Generate Key" button to have one automatically generated.</source>
-        <target>For key: come up with a long, hard to guess key, or press the "Generate Key" button to have one automatically generated.</target>
-      </segment>
-    </unit>
-    <unit id="2cc72874-8ac8-405d-a2db-10b6eb8c491f">
-      <notes>
-        <note appliesTo="source">line: 3775</note>
-      </notes>
-      <segment state="initial">
-        <source>You will need to provide this to the other person.</source>
-        <target>You will need to provide this to the other person.</target>
-      </segment>
-    </unit>
-    <unit id="498f6517-451b-4d30-a1d3-e7797c624c4e">
-      <notes>
-        <note appliesTo="source">line: 3776</note>
-        <note appliesTo="source">prefix:   * </note>
-      </notes>
-      <segment state="initial">
-        <source>Note that the key acts as both the identifier for the session and the password, so it is very important it is hard to guess.</source>
-        <target>Note that the key acts as both the identifier for the session and the password, so it is very important it is hard to guess.</target>
-      </segment>
-    </unit>
-    <unit id="6be70a23-825b-4949-a94c-5788cb14f373">
-      <notes>
-        <note appliesTo="source">line: 3777</note>
-        <note appliesTo="source">prefix: 1. </note>
-      </notes>
-      <segment state="initial">
-        <source>Press OK.</source>
-        <target>Press OK.</target>
-      </segment>
-    </unit>
-    <unit id="67b5c476-ed76-40eb-9652-0f263a8d0a11">
-      <notes>
-        <note appliesTo="source">line: 3778</note>
-        <note appliesTo="source">prefix: 1. </note>
-      </notes>
-      <segment state="initial">
-        <source>Provide the connection details (such as host and key) to the other person so they can connect.</source>
-        <target>Provide the connection details (such as host and key) to the other person so they can connect.</target>
       </segment>
     </unit>
     <unit id="d11dbdb9-e13b-4316-accc-bff9461aaaf5">
@@ -29483,15 +28835,6 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <target>Usar o acceso remoto</target>
       </segment>
     </unit>
-    <unit id="47a9ec53-119b-432d-8bbd-c957f7844e6c">
-      <notes>
-        <note appliesTo="source">line: 3782</note>
-      </notes>
-      <segment state="initial">
-        <source>Once a Remote Access session is active, you can switch between controlling the remote computer and your own, share your clipboard, and mute the remote session:</source>
-        <target>Once a Remote Access session is active, you can switch between controlling the remote computer and your own, share your clipboard, and mute the remote session:</target>
-      </segment>
-    </unit>
     <unit id="3825cc2f-df6e-40ea-b0d9-8235c199d8e1">
       <notes>
         <note appliesTo="source">line: 3784</note>
@@ -29500,54 +28843,6 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <segment state="final">
         <source>Press `NVDA+alt+tab` to toggle between controlling and returning to your own computer.</source>
         <target>Preme `NVDA+alt+tab` para alternar entre controlar e volver ao teu propio ordenador.</target>
-      </segment>
-    </unit>
-    <unit id="3f2f0038-670c-4757-be7d-6ac1e31b15dd">
-      <notes>
-        <note appliesTo="source">line: 3785</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="initial">
-        <source>Send text from your clipboard to the other computer by opening the NVDA menu, then selecting Tools, then "Remote Access", then "Send clipboard".</source>
-        <target>Send text from your clipboard to the other computer by opening the NVDA menu, then selecting Tools, then "Remote Access", then "Send clipboard".</target>
-      </segment>
-    </unit>
-    <unit id="f32a5919-3e28-4cc3-8854-7e52b3335500">
-      <notes>
-        <note appliesTo="source">line: 3786</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="initial">
-        <source>If connected as the controlling computer, mute the remote computer's speech output on your local computer by opening the NVDA menu, then selecting Tools, then "Remote Access", then "Mute remote".</source>
-        <target>If connected as the controlling computer, mute the remote computer's speech output on your local computer by opening the NVDA menu, then selecting Tools, then "Remote Access", then "Mute remote".</target>
-      </segment>
-    </unit>
-    <unit id="277e28c8-561a-46b5-85d5-752e8abf5766">
-      <notes>
-        <note appliesTo="source">line: 3787</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="initial">
-        <source>If connected as the controlling computer, send `control+alt+delete` to the controlled computer by opening the NVDA menu, then selecting Tools, then "Remote Access", then "Send control+alt+delete".</source>
-        <target>If connected as the controlling computer, send `control+alt+delete` to the controlled computer by opening the NVDA menu, then selecting Tools, then "Remote Access", then "Send control+alt+delete".</target>
-      </segment>
-    </unit>
-    <unit id="c5ef1a06-f5d5-43bc-b521-628adccd7cb6">
-      <notes>
-        <note appliesTo="source">line: 3788</note>
-      </notes>
-      <segment state="initial">
-        <source>  In order for this to work, the controlled computer must be running an installed copy of NVDA.</source>
-        <target>  In order for this to work, the controlled computer must be running an installed copy of NVDA.</target>
-      </segment>
-    </unit>
-    <unit id="7525d1db-a591-4b34-a85e-37aa74e2e3b6">
-      <notes>
-        <note appliesTo="source">line: 3789</note>
-      </notes>
-      <segment state="initial">
-        <source>  Additionally, depending on the settings of the controlled computer, this function may not always work.</source>
-        <target>  Additionally, depending on the settings of the controlled computer, this function may not always work.</target>
       </segment>
     </unit>
     <unit id="2907e809-9f1b-4de0-8e83-c9f868d89301">
@@ -29572,17 +28867,6 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <target> Nome |Clave |Descrición</target>
       </segment>
     </unit>
-    <unit id="02964c3d-96de-4b70-8168-e68bb245f38e">
-      <notes>
-        <note appliesTo="source">line: 3796</note>
-        <note appliesTo="source">prefix: |</note>
-        <note appliesTo="source">suffix: |</note>
-      </notes>
-      <segment state="initial">
-        <source> Toggle Remote connection | `NVDA+alt+r` | Starts a new Remote Access session or, if a session is already in progress, disconnects from it. </source>
-        <target> Toggle Remote connection | `NVDA+alt+r` | Starts a new Remote Access session or, if a session is already in progress, disconnects from it. </target>
-      </segment>
-    </unit>
     <unit id="0b908760-a0ed-4689-800e-a09c29e5d649">
       <notes>
         <note appliesTo="source">line: 3797</note>
@@ -29592,17 +28876,6 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <segment state="final">
         <source> Toggle Control | `NVDA+alt+tab` | Switches between controlling the remote and local computer. </source>
         <target> Alternar o control | `NVDA+alt+tab` | Cambia entre controlar o computador remoto e o local. </target>
-      </segment>
-    </unit>
-    <unit id="2a6aa6a1-5c2e-4b73-9b05-8dd3a92e040d">
-      <notes>
-        <note appliesTo="source">line: 3798</note>
-        <note appliesTo="source">prefix: |</note>
-        <note appliesTo="source">suffix: |</note>
-      </notes>
-      <segment state="initial">
-        <source> Connect | None | Starts a new Remote Access session. Unavailable in [secure mode](#SecureMode). </source>
-        <target> Connect | None | Starts a new Remote Access session. Unavailable in [secure mode](#SecureMode). </target>
       </segment>
     </unit>
     <unit id="771cf83f-a8b9-4d9d-83b9-565428414f6a">
@@ -29636,17 +28909,6 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <segment state="final">
         <source> Mute remote | None | Mutes or unmutes the speech coming from the remote computer. </source>
         <target> Silenciar o control remoto | Non | Silencia ou activa a voz procedente do computador remoto. </target>
-      </segment>
-    </unit>
-    <unit id="bcb6fbca-2e51-48a4-a7a3-aa850b7ebfe1">
-      <notes>
-        <note appliesTo="source">line: 3802</note>
-        <note appliesTo="source">prefix: |</note>
-        <note appliesTo="source">suffix: |</note>
-      </notes>
-      <segment state="initial">
-        <source> Send clipboard | None | Sends the contents of the clipboard to the remote computer. </source>
-        <target> Send clipboard | None | Sends the contents of the clipboard to the remote computer. </target>
       </segment>
     </unit>
     <unit id="94267446-c550-43a5-80a9-d9596e6f85fd">
