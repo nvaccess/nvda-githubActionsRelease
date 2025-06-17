@@ -51,3 +51,18 @@ nvdaHelper/docs/
 *.pfx
 appveyor-tools/
 *.egg-info
+
+# Translations in Crowdin that are not ready for inclusion in NVDA
+source/locale/az
+user_docs/az
+source/locale/be
+user_docs/be
+source/locale/et
+user_docs/et
+source/locale/kk
+user_docs/kk
+source/locale/km
+user_docs/km
+# Test only locales
+source/locale/zzTest
+user_docs/zzTest
