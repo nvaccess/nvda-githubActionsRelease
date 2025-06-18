@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="hi">
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="km">
   <file id="userGuide.md" original="https://raw.githubusercontent.com/nvaccess/nvda/f75f58e1452be763045278856c83ae0227c0c2d8/user_docs/en/userGuide.md">
     <skeleton>
 # $(ID:f5169acb-2803-46c6-8e4c-7c1aaf973723)
@@ -5545,98 +5545,5 @@ $(ID:ac3c9cdd-a866-49d9-9b44-293c73e82def)
 $(ID:9f0134a0-6d7e-42b4-a650-791dea8022a4)
 $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
 </skeleton>
-    <unit id="f5169acb-2803-46c6-8e4c-7c1aaf973723">
-      <notes>
-        <note appliesTo="source">line: 2</note>
-        <note appliesTo="source">prefix: # </note>
-      </notes>
-      <segment state="translated">
-        <source>NVDA NVDA_VERSION User Guide</source>
-        <target>एनवीडीए एनवीडीए_संस्करण उपयोगकर्ता गाइड</target>
-      </segment>
-    </unit>
-    <unit id="bef0258d-7946-41ad-a11c-196179d241ea">
-      <notes>
-        <note appliesTo="source">line: 10</note>
-        <note appliesTo="source">prefix: ## </note>
-        <note appliesTo="source">suffix:  {#Introduction}</note>
-      </notes>
-      <segment state="translated">
-        <source>Introduction</source>
-        <target>परिचय</target>
-      </segment>
-    </unit>
-    <unit id="42aa26be-eeb2-4456-acac-74e9f243fc1b">
-      <notes>
-        <note appliesTo="source">line: 12</note>
-      </notes>
-      <segment state="translated">
-        <source>Welcome to NVDA!</source>
-        <target>एनवीडीए में आपका स्वागत है!</target>
-      </segment>
-    </unit>
-    <unit id="3e5e2692-cdb5-4343-b098-d50ea966f6fb">
-      <notes>
-        <note appliesTo="source">line: 18</note>
-        <note appliesTo="source">prefix: ### </note>
-        <note appliesTo="source">suffix:  {#GeneralFeatures}</note>
-      </notes>
-      <segment state="translated">
-        <source>General Features</source>
-        <target>सामान्य सुविधाएँ</target>
-      </segment>
-    </unit>
-    <unit id="9e8a8992-9934-4641-98c2-b1a3fd3aaf36">
-      <notes>
-        <note appliesTo="source">line: 42</note>
-        <note appliesTo="source">prefix: ### </note>
-        <note appliesTo="source">suffix:  {#SystemRequirements}</note>
-      </notes>
-      <segment state="translated">
-        <source>System Requirements</source>
-        <target>हार्डवेयर आवश्यकताएँ</target>
-      </segment>
-    </unit>
-    <unit id="fae2037c-e73e-4dd4-bbfc-529075c45cb0">
-      <notes>
-        <note appliesTo="source">line: 44</note>
-        <note appliesTo="source">prefix: #### </note>
-        <note appliesTo="source">suffix:  {#MinimumSystemRequirements}</note>
-      </notes>
-      <segment state="translated">
-        <source>Minimum System Requirements</source>
-        <target>न्यूनतम हार्डवेयर आवश्यकताएँ</target>
-      </segment>
-    </unit>
-    <unit id="becfe653-e084-45ef-a7cd-8c42a552b711">
-      <notes>
-        <note appliesTo="source">line: 46</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="translated">
-        <source>Operating Systems: all 32-bit and 64-bit editions of Windows 8.1, Windows 10, Windows 11, and all Server Operating Systems starting from Windows Server 2012 R2.</source>
-        <target>ऑपरेटिंग सिस्टम: विंडोज 8.1, विंडोज 10, विंडोज 11 के सभी 32-बिट और 64-बिट संस्करण तथा विंडोज सर्वर 2012 आर-2 से शुरू होने वाले सभी सर्वर ऑपरेटिंग सिस्टम।</target>
-      </segment>
-    </unit>
-    <unit id="8c768a13-c0dd-4494-af7f-972ce83aa919">
-      <notes>
-        <note appliesTo="source">line: 47</note>
-        <note appliesTo="source">prefix:   * </note>
-      </notes>
-      <segment state="translated">
-        <source>both AMD64 and ARM64 variants of Windows are supported.</source>
-        <target>विंडोज के AMD64 और ARM64 दोनों प्रकार के वर्जन पर काम करता है।</target>
-      </segment>
-    </unit>
-    <unit id="fe98f99a-734e-4cbf-8b83-01cde553520f">
-      <notes>
-        <note appliesTo="source">line: 48</note>
-        <note appliesTo="source">prefix:   * </note>
-      </notes>
-      <segment state="translated">
-        <source>Note that 32-bit operating systems are no longer under active support.</source>
-        <target>ध्यान दें कि 32-बिट ऑपरेटिंग सिस्टम के लिए अब नियमित रूप सहायता उपलब्ध नहीं है।</target>
-      </segment>
-    </unit>
   </file>
 </xliff>
