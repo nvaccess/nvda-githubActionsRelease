@@ -2,19 +2,24 @@ name: Fetch Crowdin Translations
 
 on:
   workflow_dispatch:
-  schedule:
-    # Every Monday at 00:00 UTC
-    # This is because the translation freeze should end at 11:59 UTC on a Sunday.
-    # And we want to perform beta/rc releases soon after 00:00 UTC on a Monday.
-    # Cron jobs are run from the master branch.
-    - cron: '0 0 * * 1'
+    inputs:
+      newLanguages:
+        description: 'JSON style list of new languages to add to Crowdin e.g. ["fr", "de"]'
+        required: true
+        type: string
 
 jobs:
-  download-from-crowdin:
+  add-new-languages:
     runs-on: ubuntu-latest
     permissions:
       contents: write
       pull-requests: write
+    strategy:
+      fail-fast: false
+      matrix:
+        newLanguage: ${{ fromJson(github.event.inputs.newLanguages) }}
+    env:
+      branchName: addLanguage_${{ matrix.newLanguage }}
 
     steps:
     - name: Checkout repository
@@ -29,13 +34,14 @@ jobs:
       with:
         config: ci/crowdin.yml  # taken from beta branch as per checkout
         download_translations: true
+        download_language: ${{ matrix.newLanguage }}
         # Avoids build warning "Warning: line 392 contained a corrupt empty translation. Using source"
         skip_untranslated_strings: true
         push_translations: true
-        localization_branch_name: updateCrowdinTranslations
+        localization_branch_name: ${{ env.branchName }}
         pull_request_base_branch_name: beta
-        commit_message: "Update all translations from Crowdin"
-        pull_request_title: "Update translations from Crowdin"
+        commit_message: "Introduce new language ${{ matrix.newLanguage }} from Crowdin"
+        pull_request_title: "Introduce new language ${{ matrix.newLanguage }} from Crowdin"
         push_sources: false
         upload_sources: false
         upload_translations: false
@@ -58,7 +64,7 @@ jobs:
     - name: Run pre-commit
       run: |
         # Run pre-commit on the translations
-        pre-commit run checkPo --from-ref updateCrowdinTranslations --to-ref beta &> pre-commit.log
+        pre-commit run checkPo --from-ref ${{ env.branchName }} --to-ref beta &> pre-commit.log
 
     - name: Comment failure message
       if: failure()
@@ -66,22 +72,3 @@ jobs:
         # If pre-commit fails, comment on the PR with the failure message
         gh pr comment ${{ steps.downloadTranslations.outputs.pull_request_number }} \
         --body-file pre-commit.log
-
-    - name: Amend the commit to only commit tracked files from the previous commit
-      # Prevents new languages from being added to the commit
-      run: |
-        git checkout updateCrowdinTranslations
-        git reset --soft HEAD^
-        git add -u source/locale
-        git add -u user_docs
-        git commit -m "Update tracked translations from Crowdin"
-        git push --force origin updateCrowdinTranslations
-  
-    - name: Merge pull request
-      # Sets PR to auto-merge when checks have passed
-      run: |
-        gh pr merge ${{ steps.downloadTranslations.outputs.pull_request_number }} \
-        --squash --delete-branch --auto \
-        --body "Merged translations from Crowdin"
-      env:
-        GITHUB_TOKEN: ${{ github.token }}

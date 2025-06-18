@@ -6,7 +6,7 @@
 
 "files": [
   {
-    "source": r"output\nvda.pot",
+    "source": "source/locale/en/LC_MESSAGES/nvda.po",
     "translation": "source/locale/%two_letters_code%/LC_MESSAGES/nvda.po"
   },
   {
