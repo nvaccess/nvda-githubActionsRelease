@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="hi">
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="km">
   <file id="changes.md" original="https://raw.githubusercontent.com/nvaccess/nvda/6de3a3ae8ac3f68a6c09d08c71fbb20833651f5c/user_docs/en/changes.md">
     <skeleton>
 # $(ID:4bf3ec03-2d43-474a-aef0-92b334e594ed)
@@ -5398,84 +5398,5 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
 * $(ID:5023a908-ff44-4868-a4a9-69c63c596ad2)
 * $(ID:10f9fec7-2a2c-412a-84af-5d9206d16c14)
 </skeleton>
-    <unit id="4bf3ec03-2d43-474a-aef0-92b334e594ed">
-      <notes>
-        <note appliesTo="source">line: 2</note>
-        <note appliesTo="source">prefix: # </note>
-      </notes>
-      <segment state="translated">
-        <source>What's New in NVDA</source>
-        <target>एनवीडीए में नया क्या है</target>
-      </segment>
-    </unit>
-    <unit id="c5897f9a-e347-4570-8d21-633a7cbcac67">
-      <notes>
-        <note appliesTo="source">line: 309</note>
-        <note appliesTo="source">prefix: ## </note>
-      </notes>
-      <segment state="translated">
-        <source>2024.4.2</source>
-        <target>2024.4.2</target>
-      </segment>
-    </unit>
-    <unit id="e97849c3-078f-4e0d-9467-5cc2e2561450">
-      <notes>
-        <note appliesTo="source">line: 311</note>
-      </notes>
-      <segment state="translated">
-        <source>This is a patch release to fix bugs with braille devices and reading math in Chromium.</source>
-        <target>यह पैच रिलीज़ ब्रेल उपकरणों और क्रोमियम में गणित पढ़ने लिए बग को ठीक करने के लिए है।</target>
-      </segment>
-    </unit>
-    <unit id="06780a38-f353-4a4a-97a2-50f1337f36a6">
-      <notes>
-        <note appliesTo="source">line: 313</note>
-        <note appliesTo="source">prefix: ### </note>
-      </notes>
-      <segment state="translated">
-        <source>Bug fixes</source>
-        <target>बग फिक्सेस</target>
-      </segment>
-    </unit>
-    <unit id="90f5676c-def6-4b62-8d59-55bc876a81c4">
-      <notes>
-        <note appliesTo="source">line: 315</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="translated">
-        <source>Fixed bug with with reading math in Chromium Browsers (Chrome, Edge). (#17421, @NSoiffer)</source>
-        <target>गणित पढ़ने में आने वाली बग को क्रोमियम ब्राउज़र (क्रोम, एज) में ठीक किया गया। (#17421, @NSoiffer)</target>
-      </segment>
-    </unit>
-    <unit id="2a5434a6-5393-4e2b-8975-67ad463546d0">
-      <notes>
-        <note appliesTo="source">line: 316</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="translated">
-        <source>Humanware Brailliant BI 40X devices running firmware version 2.4 now work as expected. (#17518, @bramd)</source>
-        <target>फ़र्मवेयर संस्करण 2.4 पर चलने वाले ह्यूमनवेयर ब्रिलियंट बीआई 40एक्स डिवाइस अब अपेक्षाओं के अनुसार कार्य कर रहा है। (#17518, @bramd)</target>
-      </segment>
-    </unit>
-    <unit id="f1ecd2de-f0fa-4c1b-b4eb-8fcd9081b09a">
-      <notes>
-        <note appliesTo="source">line: 324</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="translated">
-        <source>Fixed bug where speech symbols dictionaries were not saved and the dialog would not be closed. (#17344)</source>
-        <target>उस बग को ठीक किया गया जहां भाषण प्रतीकों के शब्दकोश सहेजे नहीं जाते थे और संवाद बंद नहीं होता था। (#17344)</target>
-      </segment>
-    </unit>
-    <unit id="29eee67b-13f8-4972-b669-17ac88978495">
-      <notes>
-        <note appliesTo="source">line: 727</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="translated">
-        <source>Braille:</source>
-        <target>ब्रेल:</target>
-      </segment>
-    </unit>
   </file>
 </xliff>
