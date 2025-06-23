@@ -7299,7 +7299,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Speak typed characters |`NVDA+2` |`NVDA+2` |Controls when NVDA announces characters you type. </source>
-        <target>&lt;target/&gt;</target>
+        <target>Eingegebene Zeichen vorlesen |'NVDA+2' |'NVDA+2' |Steuert, wann NVDA die von Ihnen eingegebenen Zeichen ankündigt. </target>
       </segment>
     </unit>
     <unit id="7bdd8d70-455c-410f-b0c7-697a0396b2c5">
@@ -25442,7 +25442,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Allow this computer to be controlled |Use this computer as the "controlled" computer. This allows the operator of the "controlling" computer to use this computer as if they were sitting in front of it. </source>
-        <target>&lt;target/&gt; </target>
+        <target>&lt;target/&gt;</target>
       </segment>
     </unit>
     <unit id="b9e02315-fd92-42e4-941a-68e452bb789f">
@@ -25453,7 +25453,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>Control another computer |Use this computer as the "controlling" computer. This allows you to execute commands on the remote computer. </source>
-        <target>&lt;target/&gt; </target>
+        <target>&lt;target/&gt;</target>
       </segment>
     </unit>
     <unit id="af02981e-74c9-4832-be1a-9596b2b1ad2a">
@@ -29411,7 +29411,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>  This documentation does not cover how to forward ports.</source>
-        <target>  &lt;target/&gt;</target>
+        <target>&lt;target/&gt;</target>
       </segment>
     </unit>
     <unit id="59c85e24-7c80-4162-901c-02379194a393">
@@ -29420,7 +29420,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source>  You may need to contact your network administrator to do this.</source>
-        <target>  &lt;target/&gt;</target>
+        <target>&lt;target/&gt;</target>
       </segment>
     </unit>
     <unit id="d995902d-8e11-47a8-9306-aab1445ce6b9">
@@ -29527,27 +29527,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3787</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>If connected as the controlling computer, send `control+alt+delete` to the controlled computer by opening the NVDA menu, then selecting Tools, then "Remote Access", then "Send control+alt+delete".</source>
-        <target>If connected as the controlling computer, send `control+alt+delete` to the controlled computer by opening the NVDA menu, then selecting Tools, then "Remote Access", then "Send control+alt+delete".</target>
+        <target>Wenn Sie als steuernder Computer verbunden sind, senden Sie "Strg+Alt+Entf" an den gesteuerten Computer, indem Sie das NVDA-Menü öffnen, dann Extras, dann "Fernzugriff" und dann "Strg+Alt+Entf senden" auswählen.</target>
       </segment>
     </unit>
     <unit id="c5ef1a06-f5d5-43bc-b521-628adccd7cb6">
       <notes>
         <note appliesTo="source">line: 3788</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>  In order for this to work, the controlled computer must be running an installed copy of NVDA.</source>
-        <target>  In order for this to work, the controlled computer must be running an installed copy of NVDA.</target>
+        <target>  Damit dies funktioniert, muss auf dem gesteuerten Computer eine installierte Kopie von NVDA ausgeführt werden.</target>
       </segment>
     </unit>
     <unit id="7525d1db-a591-4b34-a85e-37aa74e2e3b6">
       <notes>
         <note appliesTo="source">line: 3789</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>  Additionally, depending on the settings of the controlled computer, this function may not always work.</source>
-        <target>  Additionally, depending on the settings of the controlled computer, this function may not always work.</target>
+        <target>  Darüber hinaus funktioniert diese Funktion je nach den Einstellungen des gesteuerten Computers möglicherweise nicht immer.</target>
       </segment>
     </unit>
     <unit id="2907e809-9f1b-4de0-8e83-c9f868d89301">
@@ -29580,7 +29580,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source> Toggle Remote connection | `NVDA+alt+r` | Starts a new Remote Access session or, if a session is already in progress, disconnects from it. </source>
-        <target> &lt;target/&gt; </target>
+        <target>&lt;target/&gt;</target>
       </segment>
     </unit>
     <unit id="0b908760-a0ed-4689-800e-a09c29e5d649">
@@ -29602,7 +29602,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source> Connect | None | Starts a new Remote Access session. Unavailable in [secure mode](#SecureMode). </source>
-        <target> &lt;target/&gt; </target>
+        <target>&lt;target/&gt;</target>
       </segment>
     </unit>
     <unit id="771cf83f-a8b9-4d9d-83b9-565428414f6a">
@@ -29646,7 +29646,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="translated">
         <source> Send clipboard | None | Sends the contents of the clipboard to the remote computer. </source>
-        <target> &lt;target/&gt; </target>
+        <target>&lt;target/&gt;</target>
       </segment>
     </unit>
     <unit id="94267446-c550-43a5-80a9-d9596e6f85fd">
