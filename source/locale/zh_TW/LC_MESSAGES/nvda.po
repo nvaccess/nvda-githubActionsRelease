@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-07 04:27+0000\n"
-"PO-Revision-Date: 2025-07-07 23:52\n"
+"POT-Creation-Date: 2025-07-14 07:56+0000\n"
+"PO-Revision-Date: 2025-07-14 08:13\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -4502,7 +4502,7 @@ msgstr "目標: {name}"
 #. Translators: Reported when using the command to report the destination of a link.
 #: globalCommands.py:4382
 msgid "Unable to get the destination of this link."
-msgstr "無法取得此鏈接的目標。"
+msgstr "無法取得此連結的目標。"
 
 #. Translators: Reported when using the command to report the destination of a link.
 #: globalCommands.py:4385
@@ -4735,7 +4735,7 @@ msgstr "讀出游標所在文字的語言。連按兩下，在瀏覽模式呈現
 #: globalCommands.py:4952
 msgctxt "reportLanguage"
 msgid "Unknown language"
-msgstr ""
+msgstr "未知的語言"
 
 #. Translators: Language of the character at caret position when it's not supported by the current synthesizer.
 #: globalCommands.py:4963
@@ -12936,7 +12936,7 @@ msgstr "自動方言切換 (若有支援)"
 #: gui\settingsDialogs.py:1712
 msgctxt "reportLanguage"
 msgid "Report lan&guage changes while reading"
-msgstr ""
+msgstr "讀出語言變化(&G)"
 
 #. Translators: This is a label for a combobox in the Voice settings panel to select
 #. reporting when the language of the text being read is not supported by the current synthesizer.

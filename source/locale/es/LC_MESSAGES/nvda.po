@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-07 04:27+0000\n"
-"PO-Revision-Date: 2025-07-07 23:53\n"
+"POT-Creation-Date: 2025-07-14 07:56+0000\n"
+"PO-Revision-Date: 2025-07-14 08:13\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -4739,7 +4739,7 @@ msgstr "Indica el idioma del texto bajo el cursor. Si se pulsa dos veces, presen
 #: globalCommands.py:4952
 msgctxt "reportLanguage"
 msgid "Unknown language"
-msgstr ""
+msgstr "Idioma desconocido"
 
 #. Translators: Language of the character at caret position when it's not supported by the current synthesizer.
 #: globalCommands.py:4963
@@ -12963,7 +12963,7 @@ msgstr "Cambio automático de dialecto (cuando esté soportado)"
 #: gui\settingsDialogs.py:1712
 msgctxt "reportLanguage"
 msgid "Report lan&guage changes while reading"
-msgstr ""
+msgstr "Indicar cambios de &idioma durante la lectura"
 
 #. Translators: This is a label for a combobox in the Voice settings panel to select
 #. reporting when the language of the text being read is not supported by the current synthesizer.

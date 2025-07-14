@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="de">
-  <file id="changes.md" original="https://raw.githubusercontent.com/nvaccess/nvda/6f474da7e603b9ec5d930d18bc8d4a58c9d8cf23/user_docs/en/changes.md">
+  <file id="changes.md" original="https://raw.githubusercontent.com/nvaccess/nvda/a726f301f78f39e50bc4940e80ce8951209f8837/user_docs/en/changes.md">
     <skeleton>
 # $(ID:4bf3ec03-2d43-474a-aef0-92b334e594ed)
 
@@ -74,7 +74,7 @@ $(ID:c3886e8f-9d32-4855-9d4a-6aed02356a15)
 * $(ID:fd77332b-d60c-4817-8306-f55632ba0018)
 * $(ID:49efea65-1510-4c7c-8956-1d0e51d21751)
 * $(ID:5f486c92-625b-45ab-b8a2-f332171bd6d7)
-* $(ID:2f67a398-e35f-4a5f-b968-80f8ca9225ae)
+* $(ID:fef32b1e-2a24-4d43-885a-ec1caa5f7811)
 
 ### $(ID:d20c0153-d1c5-477c-9099-28a28dbef92d)
 
@@ -6048,26 +6048,6 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <target>Es ist jetzt möglich, die Beschriftungen der Steuerelemente in den Menüs und Dialogfeldern in Google Chrome sich anzeigen und sie buchstabieren zu lassen. (#11285, @jcsteh)</target>
       </segment>
     </unit>
-    <unit id="5f486c92-625b-45ab-b8a2-f332171bd6d7">
-      <notes>
-        <note appliesTo="source">line: 73</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="initial">
-        <source>When typing into a cell in Microsoft Excel, the braille display is now correctly updated to show the new content. (#18391)</source>
-        <target>When typing into a cell in Microsoft Excel, the braille display is now correctly updated to show the new content. (#18391)</target>
-      </segment>
-    </unit>
-    <unit id="2f67a398-e35f-4a5f-b968-80f8ca9225ae">
-      <notes>
-        <note appliesTo="source">line: 74</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="initial">
-        <source>Fixed bug where NLS eReader Zoomax driver did not work with all devices. (#18406, @florin-trutiu)</source>
-        <target>Fixed bug where NLS eReader Zoomax driver did not work with all devices. (#18406, @florin-trutiu)</target>
-      </segment>
-    </unit>
     <unit id="d20c0153-d1c5-477c-9099-28a28dbef92d">
       <notes>
         <note appliesTo="source">line: 76</note>
@@ -6254,26 +6234,6 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <segment state="translated">
         <source>NVDA will report Windows release revision number (for example: 10.0.26100.0) when `winVersion.getWinVer` is called and log this information at startup. (#18266, @josephsl)</source>
         <target>NVDA teilt die Versionsnummer von Windows mit (z. B. 10.0.26100.0), wenn `winVersion.getWinVer` aufgerufen wird und protokolliert diese Information beim Start. (#18266, @josephsl)</target>
-      </segment>
-    </unit>
-    <unit id="f62d0bba-ab16-48b4-bf4f-d226e453ac6d">
-      <notes>
-        <note appliesTo="source">line: 98</note>
-        <note appliesTo="source">prefix: #### </note>
-      </notes>
-      <segment state="initial">
-        <source>Deprecations</source>
-        <target>Deprecations</target>
-      </segment>
-    </unit>
-    <unit id="a69b04e2-4e70-499d-bc7b-3fde17f56d4c">
-      <notes>
-        <note appliesTo="source">line: 100</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="initial">
-        <source>The following symbols in `updateCheck` are deprecated for removal without replacement: `CERT_USAGE_MATCH`, `CERT_CHAIN_PARA`, `UPDATE_FETCH_TIMEOUT_S`. (#18354)</source>
-        <target>The following symbols in `updateCheck` are deprecated for removal without replacement: `CERT_USAGE_MATCH`, `CERT_CHAIN_PARA`, `UPDATE_FETCH_TIMEOUT_S`. (#18354)</target>
       </segment>
     </unit>
     <unit id="26116f3e-00d8-4ae2-bf04-4dcb8bad419f">

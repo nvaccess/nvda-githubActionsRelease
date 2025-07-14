@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-07 04:27+0000\n"
-"PO-Revision-Date: 2025-07-07 23:53\n"
+"POT-Creation-Date: 2025-07-14 07:56+0000\n"
+"PO-Revision-Date: 2025-07-14 08:13\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -1342,22 +1342,22 @@ msgstr "não existe texto antes do bloco de links"
 #. Translators: Input help message for a quick navigation command in browse mode.
 #: browseMode.py:1033
 msgid "moves to the next landmark"
-msgstr "move para a secção seguinte"
+msgstr "move para a seção seguinte"
 
 #. Translators: Message presented when the browse mode element is not found.
 #: browseMode.py:1035
 msgid "no next landmark"
-msgstr "não existe secção seguinte"
+msgstr "não existe seção seguinte"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 #: browseMode.py:1037
 msgid "moves to the previous landmark"
-msgstr "move para a secção anterior"
+msgstr "move para a seção anterior"
 
 #. Translators: Message presented when the browse mode element is not found.
 #: browseMode.py:1039
 msgid "no previous landmark"
-msgstr "não existe secção anterior"
+msgstr "não existe seção anterior"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 #: browseMode.py:1046
@@ -1691,7 +1691,7 @@ msgstr "&botões"
 #. in the browse mode Elements List dialog.
 #: browseMode.py:1248
 msgid "Lan&dmarks"
-msgstr "&Secções"
+msgstr "&Seções"
 
 #. Translators: The title of the browse mode Elements List dialog.
 #: browseMode.py:1261
@@ -1775,17 +1775,17 @@ msgstr "Não suportado neste documento."
 #. Translators: input help message for toggle native selection command
 #: browseMode.py:2633
 msgid "Toggles native selection mode on and off"
-msgstr "Activa e desactiva o modo de seleção nativa"
+msgstr "Ativa e desativa o modo de seleção nativa"
 
 #. Translators: the message when native selection mode is not available in this browse mode document.
 #: browseMode.py:2639
 msgid "Native selection mode unsupported in this browse mode document"
-msgstr "Modo de selecção nativo não suportado neste documento em modo de navegação"
+msgstr "Modo de seleção nativo não suportado neste documento em modo de navegação"
 
 #. Translators: the message when native selection mode cannot be turned off in this browse mode document.
 #: browseMode.py:2642
 msgid "Native selection mode cannot be turned off in this browse mode document"
-msgstr "O modo de selecção nativo não pode ser desactivado neste documento em modo de navegação"
+msgstr "O modo de seleção nativo não pode ser desativado neste documento em modo de navegação"
 
 #. Translators: the message when native selection mode is not available in this browse mode document.
 #: browseMode.py:2654
@@ -1795,12 +1795,12 @@ msgstr "Modo de seleção nativo não suportado neste documento"
 #. Translators: reported when native selection mode is toggled on.
 #: browseMode.py:2658
 msgid "Native app selection mode enabled"
-msgstr "Modo de selecção nativo da aplicação activado"
+msgstr "Modo de seleção nativo da aplicação activado"
 
 #. Translators: reported when native selection mode is toggled off.
 #: browseMode.py:2666
 msgid "Native app selection mode disabled"
-msgstr "Modo de selecção nativo da aplicação desactivado"
+msgstr "Modo de seleção nativo da aplicação desactivado"
 
 #. Translators: The level at which the given symbol will be spoken.
 #: characterProcessing.py:171
@@ -2274,7 +2274,7 @@ msgstr "localiza a ocorrência anterior do texto escrito previamente apartir da 
 #: cursorManager.py:541 globalCommands.py:132 globalCommands.py:400
 #: appModules\eclipse.py:69
 msgid "No selection"
-msgstr "Sem selecção"
+msgstr "Sem seleção"
 
 #. Translators: Abbreviation for points, a measurement of font size.
 #: displayModel.py:576 appModules\powerpnt.py:1223 appModules\soffice.py:99
@@ -4739,7 +4739,7 @@ msgstr "Anuncia o idioma do texto sob o cursor. Se pressionado duas vezes, apres
 #: globalCommands.py:4952
 msgctxt "reportLanguage"
 msgid "Unknown language"
-msgstr ""
+msgstr "Idioma Desconhecido"
 
 #. Translators: Language of the character at caret position when it's not supported by the current synthesizer.
 #: globalCommands.py:4963
@@ -12963,7 +12963,7 @@ msgstr "Alterar o dialecto automaticamente (quando suportado)"
 #: gui\settingsDialogs.py:1712
 msgctxt "reportLanguage"
 msgid "Report lan&guage changes while reading"
-msgstr ""
+msgstr "Anunciar alterações de &idioma ao ler"
 
 #. Translators: This is a label for a combobox in the Voice settings panel to select
 #. reporting when the language of the text being read is not supported by the current synthesizer.

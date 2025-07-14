@@ -8318,15 +8318,6 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <target>NVDA hat eine Community von teils sehr aktiven Nutzern.</target>
       </segment>
     </unit>
-    <unit id="14e7bcd9-2165-49ae-8810-4b6c6852a56e">
-      <notes>
-        <note appliesTo="source">line: 375</note>
-      </notes>
-      <segment state="initial">
-        <source>NV Access, makers of NVDA, are active on [Mastodon](https://fosstodon.org/@NVAccess), [Twitter/X](https://x.com/nvaccess) and [Facebook](https://www.facebook.com/NVAccess).</source>
-        <target>NV Access, makers of NVDA, are active on [Mastodon](https://fosstodon.org/@NVAccess), [Twitter/X](https://x.com/nvaccess) and [Facebook](https://www.facebook.com/NVAccess).</target>
-      </segment>
-    </unit>
     <unit id="46936321-9783-4806-9518-1464a2679946">
       <notes>
         <note appliesTo="source">line: 376</note>
@@ -8334,15 +8325,6 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <segment state="final">
         <source>NV Access also have a regular [In-Process blog](https://www.nvaccess.org/category/in-process/).</source>
         <target>NV Access hat auch einen regelmäßigen [In-Process-Blog](https://www.nvaccess.org/category/in-process/).</target>
-      </segment>
-    </unit>
-    <unit id="841cc920-d20f-4324-b54a-911546c71e4b">
-      <notes>
-        <note appliesTo="source">line: 377</note>
-      </notes>
-      <segment state="initial">
-        <source>There is a main [NV Access owned email list](https://groups.google.com/a/nvaccess.org/g/nvda-users) and a page full of [other community groups](https://github.com/nvaccess/nvda/wiki/Connect).</source>
-        <target>There is a main [NV Access owned email list](https://groups.google.com/a/nvaccess.org/g/nvda-users) and a page full of [other community groups](https://github.com/nvaccess/nvda/wiki/Connect).</target>
       </segment>
     </unit>
     <unit id="02bcb343-6948-4d57-b460-babaadd25165">
@@ -18403,17 +18385,6 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <segment state="final">
         <source>This option is disabled by default.</source>
         <target>Diese Option ist standardmäßig deaktiviert.</target>
-      </segment>
-    </unit>
-    <unit id="2e579547-98dd-45a1-8bdb-c7ecd207d8ec">
-      <notes>
-        <note appliesTo="source">line: 1936</note>
-        <note appliesTo="source">prefix: ##### </note>
-        <note appliesTo="source">suffix:  {#ReportLanguage}</note>
-      </notes>
-      <segment state="initial">
-        <source>Report language changes while reading</source>
-        <target>Report language changes while reading</target>
       </segment>
     </unit>
     <unit id="27a2be3f-0cd8-4720-80b5-045fdd800a6a">
