@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-07 04:27+0000\n"
-"PO-Revision-Date: 2025-07-07 23:52\n"
+"POT-Creation-Date: 2025-07-14 07:56+0000\n"
+"PO-Revision-Date: 2025-07-14 08:13\n"
 "Last-Translator: \n"
 "Language-Team: Finnish\n"
 "Language: fi_FI\n"
@@ -3838,7 +3838,7 @@ msgstr "Avaa nykyisen käyttäjän NVDA-asetushakemiston."
 #. Translators: Input help mode message for toggle progress bar output command.
 #: globalCommands.py:3181
 msgid "Toggles between beeps, speech, beeps and speech, and off, for reporting progress bar updates"
-msgstr "Vaihtaa edistymispalkkien päivityksistä ilmoittamisen asetukseksi äänimerkki, puhe, äänimerkki ja puhe tai pois käytöstä."
+msgstr "Vaihtaa edistymispalkkien päivityksistä ilmoittamisen asetukseksi \"merkkiääni\", \"puhe\", \"merkkiääni ja puhe\" tai \"pois käytöstä\"."
 
 #. Translators: A mode where no progress bar updates are given.
 #: globalCommands.py:3191
@@ -3853,12 +3853,12 @@ msgstr "Puhu edistymispalkkien päivitykset"
 #. Translators: A mode where beeps will indicate progress bar updates (beeps rise in pitch as progress bar updates).
 #: globalCommands.py:3199
 msgid "Beep for progress bar updates"
-msgstr "Äänimerkki edistymispalkkien päivittyessä"
+msgstr "Merkkiääni edistymispalkkien päivittyessä"
 
 #. Translators: A mode where both speech and beeps will indicate progress bar updates.
 #: globalCommands.py:3203
 msgid "Beep and speak progress bar updates"
-msgstr "Äänimerkki ja puhe edistymispalkkien päivittyessä"
+msgstr "Merkkiääni ja puhe edistymispalkkien päivittyessä"
 
 #. Translators: Input help mode message for toggle dynamic content changes command.
 #: globalCommands.py:3209
@@ -9998,14 +9998,14 @@ msgstr "Puheella"
 #: config\configFlags.py:173
 msgctxt "line indentation setting"
 msgid "Tones"
-msgstr "Äänimerkeillä"
+msgstr "Merkkiäänillä"
 
 #. Translators: A choice in a combo box in the document formatting dialog to report indentation with both
 #. Speech and tones.
 #: config\configFlags.py:178
 msgctxt "line indentation setting"
 msgid "Both Speech and Tones"
-msgstr "Puheella ja äänimerkeillä"
+msgstr "Puheella ja merkkiäänillä"
 
 #. Translators: This is the label for a combobox in the
 #. document formatting settings panel.
@@ -10083,7 +10083,7 @@ msgstr "Puheella"
 #: config\configFlags.py:315
 msgctxt "reportLanguage"
 msgid "Beep"
-msgstr "Äänimerkillä"
+msgstr "Merkkiäänellä"
 
 #. Translators: A label for an option to report when the language of the text being read is not supported by the current synthesizer.
 #: config\configFlags.py:317
@@ -13011,7 +13011,7 @@ msgstr "Ilmaise &isot kirjaimet puheella"
 #. voice settings panel.
 #: gui\settingsDialogs.py:1845
 msgid "&Beep for capitals"
-msgstr "Ilmaise isot kir&jaimet äänimerkillä"
+msgstr "Ilmaise isot kir&jaimet merkkiäänellä"
 
 #. Translators: This is the label for a checkbox in the
 #. voice settings panel.
@@ -13100,7 +13100,7 @@ msgstr "Salli p&ikanäppäimet jatkuvassa luvussa"
 #. keyboard settings panel.
 #: gui\settingsDialogs.py:2098
 msgid "&Beep if typing lowercase letters when caps lock is on"
-msgstr "&Anna äänimerkki pieniä kirjaimia kirjoitettaessa Caps Lockin ollessa käytössä"
+msgstr "&Anna merkkiääni pieniä kirjaimia kirjoitettaessa Caps Lockin ollessa käytössä"
 
 #. Translators: This is the label for a checkbox in the
 #. keyboard settings panel.
@@ -13164,7 +13164,7 @@ msgstr "Puhu &objekti hiiren siirtyessä siihen"
 #. mouse settings panel.
 #: gui\settingsDialogs.py:2229
 msgid "&Play audio coordinates when mouse moves"
-msgstr "Ilmaise hiiren k&oordinaatit äänimerkeillä"
+msgstr "Ilmaise hiiren k&oordinaatit merkkiäänillä"
 
 #. Translators: This is the label for a checkbox in the
 #. mouse settings panel.
@@ -13264,14 +13264,14 @@ msgstr "Puhu"
 #. See Progress bar output in the Object Presentation Settings section of the User Guide.
 #: gui\settingsDialogs.py:2422
 msgid "Beep"
-msgstr "Anna äänimerkki"
+msgstr "Anna merkkiääni"
 
 #. Translators: An option for progress bar output in the Object Presentation dialog
 #. which reports progress bar updates by both speaking and beeping.
 #. See Progress bar output in the Object Presentation Settings section of the User Guide.
 #: gui\settingsDialogs.py:2426
 msgid "Speak and beep"
-msgstr "Puhu ja anna äänimerkki"
+msgstr "Puhu ja anna merkkiääni"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
@@ -13390,7 +13390,7 @@ msgstr "Automaattinen vuorovaikutustila kohdistinta siirrettäessä"
 #. browse mode settings panel.
 #: gui\settingsDialogs.py:2642
 msgid "Audio indication of focus and browse modes"
-msgstr "Ilmaise vuorovaikutus- ja selaustilat äänimerkillä"
+msgstr "Ilmaise vuorovaikutus- ja selaustilat merkkiäänellä"
 
 #. Translators: This is the label for a checkbox in the
 #. browse mode settings panel.
@@ -17747,7 +17747,7 @@ msgstr "ei puhetta"
 #: speech\speech.py:100
 msgctxt "speechModes"
 msgid "beeps"
-msgstr "äänimerkit"
+msgstr "merkkiäänet"
 
 #. Translators: Name of the speech mode which causes NVDA to speak normally.
 #: speech\speech.py:102

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="fi">
-  <file id="changes.md" original="https://raw.githubusercontent.com/nvaccess/nvda/6f474da7e603b9ec5d930d18bc8d4a58c9d8cf23/user_docs/en/changes.md">
+  <file id="changes.md" original="https://raw.githubusercontent.com/nvaccess/nvda/a726f301f78f39e50bc4940e80ce8951209f8837/user_docs/en/changes.md">
     <skeleton>
 # $(ID:4bf3ec03-2d43-474a-aef0-92b334e594ed)
 
@@ -74,7 +74,7 @@ $(ID:c3886e8f-9d32-4855-9d4a-6aed02356a15)
 * $(ID:fd77332b-d60c-4817-8306-f55632ba0018)
 * $(ID:49efea65-1510-4c7c-8956-1d0e51d21751)
 * $(ID:5f486c92-625b-45ab-b8a2-f332171bd6d7)
-* $(ID:2f67a398-e35f-4a5f-b968-80f8ca9225ae)
+* $(ID:fef32b1e-2a24-4d43-885a-ec1caa5f7811)
 
 ### $(ID:d20c0153-d1c5-477c-9099-28a28dbef92d)
 
@@ -6058,14 +6058,14 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <target>Kun Microsoft Excelissä kirjoitetaan soluun, pistenäyttö päivittyy nyt asianmukaisesti näyttämään uutta sisältöä. (#18391)</target>
       </segment>
     </unit>
-    <unit id="2f67a398-e35f-4a5f-b968-80f8ca9225ae">
+    <unit id="fef32b1e-2a24-4d43-885a-ec1caa5f7811">
       <notes>
         <note appliesTo="source">line: 74</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
-        <source>Fixed bug where NLS eReader Zoomax driver did not work with all devices. (#18406, @florin-trutiu)</source>
-        <target>Korjattu virhe, jonka vuoksi NLS eReader Zoomax -pistenäytön ajuri ei toiminut kaikkien laitteiden kanssa. (#18406, @florin-trutiu)</target>
+        <source>When using NVDA Remote Access, speech from User Account Control screens on the remote computer now works reliably. (#18101, @jcsteh)</source>
+        <target>Etäkoneen käyttäjätilien valvonnan ikkunoilta tuleva puhe toimii nyt luotettavasti NVDA:n etäkäyttötoimintoa käytettäessä. (#18101, @jcsteh)</target>
       </segment>
     </unit>
     <unit id="d20c0153-d1c5-477c-9099-28a28dbef92d">
@@ -11536,7 +11536,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Fixed a bug where audio coordinates would be played while the application is in sleep mode when "Play audio coordinates when mouse moves" is enabled. (#8059, @hwf1324)</source>
-        <target>Korjattu virhe, joka aiheutti sen, että äänikoordinaatit ilmaistiin sovelluksen ollessa lepotilassa ja "Ilmaise hiiren koordinaatit äänimerkeillä" -asetuksen ollessa käytössä. (#8059, @hwf1324)</target>
+        <target>Korjattu virhe, joka aiheutti sen, että äänikoordinaatit ilmaistiin sovelluksen ollessa lepotilassa ja "Ilmaise hiiren koordinaatit merkkiäänillä" -asetuksen ollessa käytössä. (#8059, @hwf1324)</target>
       </segment>
     </unit>
     <unit id="1c32d291-dff9-418c-9f65-96ba3276900d">
@@ -11966,7 +11966,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>If you are currently using the NoBeepsSpeechMode add-on consider uninstalling it, and disabling "beeps" and "on-demand" modes in the settings.</source>
-        <target>Mikäli käytät Ei äänimerkit-puhetilaa -lisäosaa, harkitse sen poistamista ja "äänimerkit"- sekä "pyydettäessä"-tilojen käytöstä poistamista.</target>
+        <target>Mikäli käytät Ei äänimerkit-puhetilaa -lisäosaa, harkitse sen poistamista ja "merkkiäänet"- sekä "pyydettäessä"-tilojen käytöstä poistamista.</target>
       </segment>
     </unit>
     <unit id="890e3ee0-1bf8-409d-a319-7996363f6539">
@@ -17209,7 +17209,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>When beep or announce 'cap' for capitals is enabled with delayed character descriptions, NVDA no longer beeps or announces 'cap' twice. (#14239)</source>
-        <target>NVDA ei enää anna äänimerkkiä tai sano kahdesti "iso", kun Ilmaise isot kirjaimet äänimerkillä- tai Ilmaise isot kirjaimet sanomalla "iso" -asetukset ovat käytössä samanaikaisesti viivästettyjen merkkikuvausten kanssa. (#14239)</target>
+        <target>NVDA ei enää anna merkkiääntä tai sano kahdesti "iso", kun "Ilmaise isot kirjaimet merkkiäänellä"- tai "Ilmaise isot kirjaimet puheella" -asetukset ovat käytössä samanaikaisesti viivästettyjen merkkikuvausten kanssa. (#14239)</target>
       </segment>
     </unit>
     <unit id="561048e7-7bf6-4c5e-a175-f4facbf17890">
@@ -20277,7 +20277,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>NVDA can now beep or speak on progress bars. (#13594)</source>
-        <target>NVDA voi nyt ilmaista edistymispalkkien päivitykset äänimerkillä tai puheella. (#13594)</target>
+        <target>NVDA voi nyt ilmaista edistymispalkkien päivitykset merkkiäänellä tai puheella. (#13594)</target>
       </segment>
     </unit>
     <unit id="5a3e522d-0603-4086-b4d0-2669b3349712">
@@ -28254,7 +28254,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>When changing the audio output device, tones played by NVDA will now play through the newly selected device. (#2167)</source>
-        <target>Kun äänen ulostulolaitetta vaihdetaan, NVDA:n äänimerkit toistetaaan nyt juuri valitun laitteen kautta. (#2167)</target>
+        <target>Kun äänen ulostulolaitetta vaihdetaan, NVDA:n merkkiäänet toistetaaan nyt juuri valitun laitteen kautta. (#2167)</target>
       </segment>
     </unit>
     <unit id="973b7d11-3afc-4d04-abfa-b221f5a2838f">
@@ -33584,7 +33584,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Beeps for indeterminate progress bar dialogs such as the update checker only when progress bar output is configured to include beeps. (#6759)</source>
-        <target>Äänimerkit toistetaan epäsäännöllisille edistymispalkkivalintaikkunoille (kuten NVDA:n päivitystarkistus), vain, kun edistymispalkit on määritetty ilmaistavaksi äänimerkein. (#6759)</target>
+        <target>Merkkiäänet toistetaan epäsäännöllisille edistymispalkkivalintaikkunoille (kuten NVDA:n päivitystarkistus), vain, kun edistymispalkit on määritetty ilmaistavaksi merkkiäänin. (#6759)</target>
       </segment>
     </unit>
     <unit id="2dd9e4ad-411c-445c-99d3-57bbdfd8cb1b">
@@ -34532,7 +34532,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>When trying to type in Microsoft Excel while in protected view, NVDA now makes a sound rather than speaking characters that were not actually typed. (#6570)</source>
-        <target>NVDA antaa äänimerkin yritettäessä kirjoittaa Microsoft Excelin suojatussa näkymässä sen sijaan, että puhuisi merkkejä, joita ei todellisuudessa kirjoitettu. (#6570)</target>
+        <target>NVDA antaa merkkiäänen yritettäessä kirjoittaa Microsoft Excelin suojatussa näkymässä sen sijaan, että puhuisi merkkejä, joita ei todellisuudessa kirjoitettu. (#6570)</target>
       </segment>
     </unit>
     <unit id="c71b84e4-b691-47eb-9f9d-ae8e6c983f28">
@@ -34691,7 +34691,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>NVDA can now indicate line indentation using tones. This can be configured using the "Line indentation reporting" combo box in NVDA's Document Formatting preferences dialog. (#5906)</source>
-        <target>NVDA voi nyt ilmaista rivien sisennykset äänimerkeillä. Asetus on mahdollista määrittää Ilmoita rivien sisennykset -yhdistelmäruudusta Asiakirjojen muotoiluasetukset -valintaikkunasta. (#5906)</target>
+        <target>NVDA voi nyt ilmaista rivien sisennykset merkkiäänillä. Asetus on mahdollista määrittää Ilmoita rivien sisennykset -yhdistelmäruudusta Asiakirjojen muotoiluasetukset -valintaikkunasta. (#5906)</target>
       </segment>
     </unit>
     <unit id="1155e953-bc6e-4ca4-bf44-c7f07f984d14">
@@ -35460,7 +35460,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>In the Web Conference Plugin (such as used on out-of-sight.net) NVDA no longer beeps and speaks progress bar updates related to microphone input. (#5888)</source>
-        <target>NVDA ei enää anna äänimerkkejä ja ilmoita mikrofonisyötteeseen liittyviä edistymispalkkien päivityksiä Web Conference -lisäosassa (käytetään esim. out-of-sight.netissä). (#5888)</target>
+        <target>NVDA ei enää anna merkkiääniä ja ilmoita mikrofonisyötteeseen liittyviä edistymispalkkien päivityksiä Web Conference -lisäosassa (käytetään esim. out-of-sight.netissä). (#5888)</target>
       </segment>
     </unit>
     <unit id="d6112c74-579e-4988-a978-b595f202281f">
@@ -37584,7 +37584,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>In NVDA's Mouse Settings dialog, keyboard shortcuts have been added for play audio coordinates when mouse moves and brightness controls audio coordinates volume. (#4916)</source>
-        <target>NVDA:n Hiiriasetukset-valintaikkunan Ilmaise hiiren koordinaatit äänimerkeillä- ja Äänikoordinaattien voimakkuutta säädetään ruudun kirkkauden mukaan -asetuksille on lisätty näppäinkomennot. (#4916)</target>
+        <target>NVDA:n Hiiriasetukset-valintaikkunan "Ilmaise hiiren koordinaatit merkkiäänillä"- ja "Äänikoordinaattien voimakkuutta säädetään ruudun kirkkauden mukaan" -asetuksille on lisätty näppäinkomennot. (#4916)</target>
       </segment>
     </unit>
     <unit id="a2c53ec9-bed2-4ec2-bb0c-0a7202d1e83b">
@@ -43796,7 +43796,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>In Poedit, translators can now read translator added and automatically extracted comments. Messages that are untranslated or fuzzy are marked with a star and a beep is heard when you navigate onto them. (#1811)</source>
-        <target>Kääntäjät voivat nyt Poedit-sovelluksessa lukea heitä varten lisättyjä ja automaattisesti purettuja kommentteja. Kääntämättömät tai epämääräiset ilmoitukset merkitään tähdellä sekä ilmaistaan äänimerkillä niiden kohdalle tultaessa. (#1811).</target>
+        <target>Kääntäjät voivat nyt lukea Poedit-sovelluksessa heitä varten lisättyjä ja automaattisesti purettuja kommentteja. Kääntämättömät tai epämääräiset ilmoitukset merkitään tähdellä sekä ilmaistaan merkkiäänellä niiden kohdalle tultaessa. (#1811).</target>
       </segment>
     </unit>
     <unit id="eed625b2-13e4-4578-b547-53302932aa4f">
@@ -45384,7 +45384,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Checking the Brightness controls volume checkbox in the Mouse Settings dialog should no longer cause a major lag for beeps when moving the mouse around the screen on Windows Vista/Windows 7 with Aero enabled. (#1183)</source>
-        <target>Äänikoordinaattien voimakkuutta säädetään ruudun kirkkauden mukaan -valintaruudun valitsemisen Hiiriasetukset-valintaikkunasta ei pitäisi enää aiheuttaa äänimerkkien huomattavaa hidastumista liikutettaessa hiirtä ruudulla Windows Vistassa ja Windows 7:ssä, kun Aero-tehosteet ovat käytössä. (#1183)</target>
+        <target>"Äänikoordinaattien voimakkuutta säädetään ruudun kirkkauden mukaan" -valintaruudun valitsemisen Hiiriasetukset-valintaikkunasta ei pitäisi enää aiheuttaa merkkiäänien huomattavaa hidastumista liikutettaessa hiirtä ruudulla Windows Vistassa ja Windows 7:ssä, kun Aero-tehosteet ovat käytössä. (#1183)</target>
       </segment>
     </unit>
     <unit id="9b9d9b09-104c-4ec4-aa7e-b8fe05ad3f6e">
@@ -46302,7 +46302,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>A small beep is now heard when typing characters with the shift key while capslock is on. This can be turned off by unchecking the related new option in the Keyboard settings dialog. (#663)</source>
-        <target>Pieniä kirjaimia kirjoitettaessa Shift-näppäin pohjassa kuuluu nyt äänimerkki Capslockin ollessa käytössä. Tämä asetus voidaan poistaa käytöstä Näppäimistöasetukset-valintaikkunasta. (#663)</target>
+        <target>Pieniä kirjaimia kirjoitettaessa Vaihto-näppäin pohjassa kuuluu nyt merkkiääni Capslockin ollessa käytössä. Tämä asetus voidaan poistaa käytöstä Näppäimistöasetukset-valintaikkunasta. (#663)</target>
       </segment>
     </unit>
     <unit id="d2c5f465-5aeb-4d42-aefd-29b22912d3af">
@@ -48420,7 +48420,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>When using the in-built eSpeak synthesiser, simultaneous speech and beeps no longer intermittently cause freezes on some systems. This was most noticeable, for example, when copying large amounts of data in Windows Explorer.</source>
-        <target>Samanaikainen puhe ja äänimerkit eivät  enää aiheuta ajoittaisia jumiutumisia käytettäessä sisäänrakennettua eSpeak-puhesyntetisaattoria. Eniten tätä tapahtui esim. kopioitaessa suurta tiedostomäärää Resurssienhallinnassa.</target>
+        <target>Samanaikainen puhe ja merkkiäänet eivät  enää aiheuta ajoittaisia jumiutumisia käytettäessä sisäänrakennettua eSpeak-puhesyntetisaattoria. Tätä tapahtui eniten esim. kopioitaessa suurta tiedostomäärää Resurssienhallinnassa.</target>
       </segment>
     </unit>
     <unit id="3a7de37a-6dae-4d34-8ec3-c571582bf39e">
@@ -48579,7 +48579,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>In virtual buffers, focus mode and browse mode can now be reported using sounds instead of speech. This is enabled by default. It can be configured from the Virtual buffers dialog. (#244)</source>
-        <target>Näennäispuskureiden kohdistus- ja selaustila voidaan nyt ilmoittaa puheen sijasta äänimerkeillä. Tämä on oletusarvoisesti käytössä. Asetusta voidaan muuttaa näennäispuskureiden asetusvalintaikkunasta. (#244)</target>
+        <target>Näennäispuskureiden vuorovaikutus- ja selaustila voidaan nyt ilmaista puheen sijasta merkkiäänillä. Tämä on oletusarvoisesti käytössä. Asetusta voidaan muuttaa näennäispuskureiden asetusvalintaikkunasta. (#244)</target>
       </segment>
     </unit>
     <unit id="4c2bc3b8-b7d3-4dc1-bf46-7649d9aa2107">
@@ -48889,7 +48889,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Progress bar reporting has been improved. Most notably you can now configure NVDA to announce via both speech and beeps at the same time.</source>
-        <target>Edistymispalkkien ilmoittamista on paranneltu. NVDA voidaan nyt määrittää ilmaisemaan muutokset samaan aikaan sekä puheena että äänimerkeillä.</target>
+        <target>Edistymispalkkien ilmoittamista on paranneltu. NVDA voidaan nyt määrittää ilmaisemaan muutokset samanaikaisesti sekä puheella että merkkiäänillä.</target>
       </segment>
     </unit>
     <unit id="e3a86f13-3c8a-416e-b439-a77b8d3fe9e6">
@@ -48939,7 +48939,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Improved performance (especially on netbooks) when many beeps occur in quick succession; e.g. fast mouse movement with audio coordinates enabled. (#396)</source>
-        <target>Suorituskykyä paranneltu erityisesti minikannettavissa, kun useita äänimerkkejä esiintyy peräkkäin, esim.  liikutettaessa hiirtä nopeasti äänikoordinaattien ilmaisemisen ollessa käytössä. (#396)</target>
+        <target>Suorituskykyä paranneltu erityisesti minikannettavissa, kun useita merkkiääniä esiintyy peräkkäin, esim.  liikutettaessa hiirtä nopeasti äänikoordinaattien ilmaisemisen ollessa käytössä. (#396)</target>
       </segment>
     </unit>
     <unit id="ae4563a1-5317-4953-b3ea-9e899faf7daa">
@@ -49299,7 +49299,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>NVDA can be configured to beep for either all or only visible progress bars. Alternatively, it can be configured to speak progress bar values every 10%.</source>
-        <target>NVDA voidaan määrittää ilmaisemaan äänimerkeillä joko kaikki tai vain näkyvät edistymispalkit. Edistymispalkkien arvot voidaan vaihtoehtoisesti määrittää puhuttaviksi joka 10 prosentin välein.</target>
+        <target>NVDA voidaan määrittää ilmaisemaan merkkiäänillä joko kaikki tai vain näkyvät edistymispalkit. Edistymispalkkien arvot voidaan vaihtoehtoisesti määrittää puhuttaviksi joka 10 prosentin välein.</target>
       </segment>
     </unit>
     <unit id="9492078b-abf0-43d7-823e-f4e55a15834d">
@@ -50149,7 +50149,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Improve the range and scale of the progress bar beeps</source>
-        <target>Paranneltu edistymispalkkeja ilmaisevien äänimerkkien äänialaa ja skaalausta.</target>
+        <target>Paranneltu edistymispalkkeja ilmaisevien merkkiäänien äänialaa ja skaalausta.</target>
       </segment>
     </unit>
     <unit id="2861edc6-969e-4bfd-8f21-12b0f279d6d1">
@@ -50939,7 +50939,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>NVDA can now beep when speaking a capital letter. This can be turned on and off with a check box in the voice settings dialog. Also added a raise pitch for capitals check box to configure whether NVDA should actually do its normal pitch raise for capitals. So now you can have either raise pitch, say cap, or beep, for capitals.</source>
-        <target>NVDA voi antaa nyt äänimerkin isoa kirjainta luettaessa. Asetus voidaan ottaa käyttöön ja poistaa käytöstä Ääniasetukset-valintaikkunasta. Lisätty myös "Nosta äänenkorkeutta isojen kirjainten kohdalla" -valintaruutu, jolla voidaan määrittää, tulisiko NVDA:n nostaa äänenkorkeutta isojen kirjainten kohdalla. Joten NVDA voi nyt joko nostaa äänenkorkeutta, sanoa "iso" tai antaa äänimerkin.</target>
+        <target>NVDA voi antaa nyt merkkiäänen isoa kirjainta luettaessa. Asetus voidaan ottaa käyttöön ja poistaa käytöstä Ääniasetukset-valintaikkunasta. Lisätty myös "Nosta äänenkorkeutta isojen kirjainten kohdalla" -valintaruutu, jolla voidaan määrittää, tulisiko NVDA:n nostaa äänenkorkeutta isojen kirjainten kohdalla. Joten NVDA voi nyt joko nostaa äänenkorkeutta, sanoa "iso" tai antaa merkkiäänen.</target>
       </segment>
     </unit>
     <unit id="e1f23ce9-0f07-4c66-a912-74789617fbac">
@@ -51079,7 +51079,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>NVDA+shift+numpad6 and NVDA+shift+numpad4 allow you to navigate to the next or previous object in flow respectively. This means that you can navigate in an application by only using these two keys with out having to worry about going up by parent, or down to first child as you move around the object hyerarchy. For instance in a web browser such as firefox, you could navigate the document by object, by just using these two keys. If next in flow or previous in flow takes you up and out of an object, or down in to an object, ordered beeps indicate the direction.</source>
-        <target>Näppäimet NVDA+Shift+Laskinnäppäimistön 6 ja NVDA+Shift+Laskinnäppäimistön 4 mahdollistavat siirtymisen eteen- ja taaksepäin koko objektihierarkiassa. Tämä tarkoittaa, että sovelluksen ikkunan kaikkia osia voidaan selata tarvitsematta siirtyä ylempään tai ensimmäiseen alemman tason objektiin. Jos hierarkian taso vaihtuu näitä komentoja käytettäessä, siitä ilmoitetaan äänimerkeillä.</target>
+        <target>Näppäimet NVDA+Shift+Laskinnäppäimistön 6 ja NVDA+Shift+Laskinnäppäimistön 4 mahdollistavat siirtymisen eteen- ja taaksepäin koko objektihierarkiassa. Tämä tarkoittaa, että sovelluksen ikkunan kaikkia osia voidaan selata tarvitsematta siirtyä ylempään tai ensimmäiseen alemman tason objektiin. Jos hierarkian taso vaihtuu näitä komentoja käytettäessä, siitä ilmoitetaan merkkiäänillä.</target>
       </segment>
     </unit>
     <unit id="7780216f-c317-4876-a0cd-c825151b1bc9">
@@ -51299,7 +51299,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Added a new config option, found in the mouse settings dialog. Play audio when mouse moves, when checked, plays a 40 ms beep each time the mouse moves, with its pitch (between 220 and 1760 hz) representing the y axis, and left/right volume, representing the x axis. This enables a blind person to get a rough idea of where the mouse is on the screen as its being moved. This feature also depends on reportObjectUnderMouse also being turned on. So this means that if you quickly need to disable both beeps and announcing of objects, then just press NVDA+m. The beeps are also louder or softer depending on how bright the screen is at that point.</source>
-        <target>Hiiriasetukset-valintaikkunaan on lisätty asetus "Ilmaise hiiren koordinaatit äänimerkeillä". Kun tämä asetus on käytössä, aina hiirtä liikutettaessa toistetaan 40 millisekunnin mittainen äänimerkki, jonka korkeus (väliltä 220 - 1760 Hz) ilmaisee y-akselia ja vasemman- sekä oikeanpuoleinen äänenvoimakkuus x-akselia. Tämän avulla sokea henkilö saa jonkinlaisen käsityksen siitä, missä kohtaa ruutua hiiri on. Toiminto on riippuvainen "Lue hiiren alla oleva objekti" -asetuksesta, joten sen on oltava myös käytössä. Tämä tarkoittaa, että jos sekä äänikoordinaatit että hiiren alla olevan objektin lukeminen halutaan poistaa nopeasti käytöstä, tarvitsee vain painaa NVDA+M. Äänimerkit ovat myös voimakkaampia tai hiljaisempia riippuen siitä, miten kirkas hiiren alla oleva ruudun kohta on.</target>
+        <target>Hiiriasetukset-valintaikkunaan on lisätty asetus "Ilmaise hiiren koordinaatit merkkiäänillä". Kun tämä asetus on käytössä, aina hiirtä liikutettaessa toistetaan 40 millisekunnin mittainen merkkiääni, jonka korkeus (väliltä 220-1760 Hz) ilmaisee y-akselia ja vasemman- sekä oikeanpuoleinen äänenvoimakkuus x-akselia. Tämän avulla sokea henkilö saa jonkinlaisen käsityksen siitä, missä kohtaa ruutua hiiri on. Toiminto on riippuvainen "Lue hiiren alla oleva objekti" -asetuksesta, joten sen on oltava myös käytössä. Tämä tarkoittaa, että jos sekä äänikoordinaatit että hiiren alla olevan objektin lukeminen halutaan poistaa nopeasti käytöstä, tarvitsee vain painaa NVDA+M. Merkkiäänet ovat myös voimakkaampia tai hiljaisempia riippuen siitä, miten kirkas hiiren alla oleva ruudun kohta on.</target>
       </segment>
     </unit>
     <unit id="239b2604-2ad2-4d2e-a6dd-891000d86c85">
@@ -51369,7 +51369,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>NVDA is a lot more careful now when it plays beeps to indicate progress bar changes in applications. It no longer goes crazy in Eclipse applications such as Lotus Notes/Symphony, and Accessibility Probe.</source>
-        <target>NVDA on nyt paljon tarkempi toistaessaan sovellusten edistymispalkkeja ilmaisevia äänimerkkejä. Se ei mene enää sekaisin sellaisissa Eclipse-sovelluksissa Kuten Lotus Notes, Symphony tai Accessibility Probe.</target>
+        <target>NVDA on nyt paljon tarkempi toistaessaan sovellusten edistymispalkkeja ilmaisevia merkkiääniä. Se ei mene enää sekaisin sellaisissa Eclipse-sovelluksissa Kuten Lotus Notes, Symphony tai Accessibility Probe.</target>
       </segment>
     </unit>
     <unit id="f77b3ee9-f320-40a0-ac28-826919fc29d4">
@@ -51599,7 +51599,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Added a script to toggle beeping of progress bars on and off (insert+u). Contributed by Peter Vagner.</source>
-        <target>Lisätty komento Insert+U, joka ottaa käyttöön ja poistaa käytöstä edistymispalkkien ilmaisemisen äänimerkeillä.</target>
+        <target>Lisätty komento Insert+U, joka ottaa käyttöön ja poistaa käytöstä edistymispalkkien ilmaisemisen merkkiäänillä.</target>
       </segment>
     </unit>
     <unit id="a96eff35-8c62-4b06-8ec4-09c9f0ebf337">

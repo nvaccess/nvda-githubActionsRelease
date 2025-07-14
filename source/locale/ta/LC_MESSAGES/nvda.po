@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-07 04:27+0000\n"
-"PO-Revision-Date: 2025-07-07 23:53\n"
+"POT-Creation-Date: 2025-07-14 07:56+0000\n"
+"PO-Revision-Date: 2025-07-14 08:14\n"
 "Last-Translator: \n"
 "Language-Team: Tamil\n"
 "Language: ta_IN\n"
@@ -10554,7 +10554,7 @@ msgstr "பட்டிக் கட்டுப்பாடு"
 #. Translators: Identifies a slider such as volume slider.
 #: controlTypes\role.py:260
 msgid "slider"
-msgstr "வழுக்கி"
+msgstr "நகர்வுகோல்"
 
 #. Translators: Identifies a progress bar such as NvDA update progress.
 #: controlTypes\role.py:262

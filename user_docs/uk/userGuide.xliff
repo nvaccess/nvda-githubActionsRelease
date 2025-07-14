@@ -5888,16 +5888,6 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <target>Операційні системи: усі 32-та 64-розрядні редакції Windows 8.1, Windows 10 та Windows 11, включно із серверними версіями, починаючи з Windows Server 2012 R2.</target>
       </segment>
     </unit>
-    <unit id="08991789-8f1d-48b6-92b6-c6411058f3b4">
-      <notes>
-        <note appliesTo="source">line: 47</note>
-        <note appliesTo="source">prefix:   * </note>
-      </notes>
-      <segment state="initial">
-        <source>both AMD64 and ARM64 variants of Windows are supported, including Copilot+ PCs.</source>
-        <target>both AMD64 and ARM64 variants of Windows are supported, including Copilot+ PCs.</target>
-      </segment>
-    </unit>
     <unit id="fe98f99a-734e-4cbf-8b83-01cde553520f">
       <notes>
         <note appliesTo="source">line: 48</note>
@@ -5947,16 +5937,6 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <segment state="final">
         <source>Operating Systems: 64-bit editions of Windows 10, Windows 11, and Windows Server 2022.</source>
         <target>Операційні системи: 64-розрядні редакції Windows 10, Windows 11 та Windows Server 2022.</target>
-      </segment>
-    </unit>
-    <unit id="e3671a7c-b915-4a70-a90b-91dd98c51a74">
-      <notes>
-        <note appliesTo="source">line: 55</note>
-        <note appliesTo="source">prefix:   * </note>
-      </notes>
-      <segment state="initial">
-        <source>both AMD64 and ARM64 variants of Windows are supported, including Copilot+ PCs.</source>
-        <target>both AMD64 and ARM64 variants of Windows are supported, including Copilot+ PCs.</target>
       </segment>
     </unit>
     <unit id="40475f3b-9146-4909-8c10-e8e1c5bd89a0">
@@ -7313,17 +7293,6 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <target>Повідомити форматування тексту |`NVDA+f` |`NVDA+f` |Повідомляє форматування тексту. Подвійне натискання показує цю інформацію в окремому вікні</target>
       </segment>
     </unit>
-    <unit id="681079da-c91c-474f-9e42-3292d558c0d8">
-      <notes>
-        <note appliesTo="source">line: 246</note>
-        <note appliesTo="source">prefix: |</note>
-        <note appliesTo="source">suffix: |</note>
-      </notes>
-      <segment state="initial">
-        <source>Report language |Not assigned |Not assigned |Reports text language. Pressing twice shows the information in a window</source>
-        <target>Report language |Not assigned |Not assigned |Reports text language. Pressing twice shows the information in a window</target>
-      </segment>
-    </unit>
     <unit id="85eb7fc3-aea0-4669-b0a9-ecb073bebfc7">
       <notes>
         <note appliesTo="source">line: 247</note>
@@ -7556,17 +7525,6 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <segment state="final">
         <source>Heading |`h` |Move to the next heading</source>
         <target>Заголовок |`h` |Переходить до наступного заголовка</target>
-      </segment>
-    </unit>
-    <unit id="a7d75752-fd95-440e-94a8-c1d3d53712e9">
-      <notes>
-        <note appliesTo="source">line: 280</note>
-        <note appliesTo="source">prefix: |</note>
-        <note appliesTo="source">suffix: |</note>
-      </notes>
-      <segment state="initial">
-        <source>Heading level 1, 2, etc. |`1`, `2`, etc. |Move to the next heading at the specified level</source>
-        <target>Heading level 1, 2, etc. |`1`, `2`, etc. |Move to the next heading at the specified level</target>
       </segment>
     </unit>
     <unit id="fa89304d-255f-4e5b-b042-1cce779b56e0">
@@ -8318,15 +8276,6 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <target>NVDA має активну спільноту користувачів.</target>
       </segment>
     </unit>
-    <unit id="14e7bcd9-2165-49ae-8810-4b6c6852a56e">
-      <notes>
-        <note appliesTo="source">line: 375</note>
-      </notes>
-      <segment state="initial">
-        <source>NV Access, makers of NVDA, are active on [Mastodon](https://fosstodon.org/@NVAccess), [Twitter/X](https://x.com/nvaccess) and [Facebook](https://www.facebook.com/NVAccess).</source>
-        <target>NV Access, makers of NVDA, are active on [Mastodon](https://fosstodon.org/@NVAccess), [Twitter/X](https://x.com/nvaccess) and [Facebook](https://www.facebook.com/NVAccess).</target>
-      </segment>
-    </unit>
     <unit id="46936321-9783-4806-9518-1464a2679946">
       <notes>
         <note appliesTo="source">line: 376</note>
@@ -8334,15 +8283,6 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <segment state="final">
         <source>NV Access also have a regular [In-Process blog](https://www.nvaccess.org/category/in-process/).</source>
         <target>NV Access також веде регулярний блог [In-Process](https://www.nvaccess.org/category/in-process/).</target>
-      </segment>
-    </unit>
-    <unit id="841cc920-d20f-4324-b54a-911546c71e4b">
-      <notes>
-        <note appliesTo="source">line: 377</note>
-      </notes>
-      <segment state="initial">
-        <source>There is a main [NV Access owned email list](https://groups.google.com/a/nvaccess.org/g/nvda-users) and a page full of [other community groups](https://github.com/nvaccess/nvda/wiki/Connect).</source>
-        <target>There is a main [NV Access owned email list](https://groups.google.com/a/nvaccess.org/g/nvda-users) and a page full of [other community groups](https://github.com/nvaccess/nvda/wiki/Connect).</target>
       </segment>
     </unit>
     <unit id="02bcb343-6948-4d57-b460-babaadd25165">
@@ -9004,46 +8944,6 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <segment state="final">
         <source>The inability to automatically start during and/or after log-on.</source>
         <target>Нездатні автоматично запускатися разом з Windows чи після входу в систему.</target>
-      </segment>
-    </unit>
-    <unit id="a6419890-b9f3-4f56-a89a-a8b6b6211185">
-      <notes>
-        <note appliesTo="source">line: 479</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="initial">
-        <source>The inability to interact with applications running with administrative privileges, unless of course NVDA itself has been run also with these privileges (not recommended). Examples include:</source>
-        <target>The inability to interact with applications running with administrative privileges, unless of course NVDA itself has been run also with these privileges (not recommended). Examples include:</target>
-      </segment>
-    </unit>
-    <unit id="238e90b9-21bd-4251-b63c-13c82e36b046">
-      <notes>
-        <note appliesTo="source">line: 480</note>
-        <note appliesTo="source">prefix:   * </note>
-      </notes>
-      <segment state="initial">
-        <source>Command Prompt and PowerShell running in admin mode</source>
-        <target>Command Prompt and PowerShell running in admin mode</target>
-      </segment>
-    </unit>
-    <unit id="576ff76a-f4c6-4ed0-b722-caf2aab44ce8">
-      <notes>
-        <note appliesTo="source">line: 481</note>
-        <note appliesTo="source">prefix:   * </note>
-      </notes>
-      <segment state="initial">
-        <source>Task Manager</source>
-        <target>Task Manager</target>
-      </segment>
-    </unit>
-    <unit id="8b090b65-7f9a-4583-8fe5-9c1569a76b39">
-      <notes>
-        <note appliesTo="source">line: 482</note>
-        <note appliesTo="source">prefix:   * </note>
-      </notes>
-      <segment state="initial">
-        <source>Windows 11 Voice Access</source>
-        <target>Windows 11 Voice Access</target>
       </segment>
     </unit>
     <unit id="9247705a-e595-4ad8-8289-e13959a42522">
@@ -12591,16 +12491,6 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <target>o: вбудований об’єкт (аудіо чи відеоплеєр, додаток, діалог і так далі)</target>
       </segment>
     </unit>
-    <unit id="7b319b3f-6151-42a2-a1bf-b75f1b10a3f9">
-      <notes>
-        <note appliesTo="source">line: 1020</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="initial">
-        <source>1 to 9: headings at levels 1 to 9 respectively</source>
-        <target>1 to 9: headings at levels 1 to 9 respectively</target>
-      </segment>
-    </unit>
     <unit id="5fd61ba4-4f37-4269-adb8-5995c0a4c467">
       <notes>
         <note appliesTo="source">line: 1021</note>
@@ -13342,63 +13232,6 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <segment state="final">
         <source>This means that the selection is not visible on screen, and copying text with `control+c` will only copy NVDA's plain text representation of the content. i.e. formatting of tables, or whether something is a link will not be copied.</source>
         <target>Це означає, що виділення не буде видно на екрані, а копіювання тексту за допомогою клавіш `control+c` призведе до копіювання лише звичайного текстового подання вмісту NVDA, тобто форматування таблиць або посилання не буде скопійовано.</target>
-      </segment>
-    </unit>
-    <unit id="a9cedec5-c722-4cb6-9dc7-b46c0431f5c2">
-      <notes>
-        <note appliesTo="source">line: 1139</note>
-      </notes>
-      <segment state="initial">
-        <source>However, NVDA has a Native Selection Mode which can be turned on in particular Browse Mode documents which can support it.</source>
-        <target>However, NVDA has a Native Selection Mode which can be turned on in particular Browse Mode documents which can support it.</target>
-      </segment>
-    </unit>
-    <unit id="7657ffc2-f9a7-40ee-a0e8-e888bdc9407d">
-      <notes>
-        <note appliesTo="source">line: 1140</note>
-      </notes>
-      <segment state="initial">
-        <source>Native Selection causes the document's native selection to follow NVDA's Browse Mode selection, which enables details such as formatting, links, and tables to be copied.</source>
-        <target>Native Selection causes the document's native selection to follow NVDA's Browse Mode selection, which enables details such as formatting, links, and tables to be copied.</target>
-      </segment>
-    </unit>
-    <unit id="83202642-35db-40fb-a987-90107d68dcf6">
-      <notes>
-        <note appliesTo="source">line: 1141</note>
-      </notes>
-      <segment state="initial">
-        <source>Currently, Native Selection Mode is supported in:</source>
-        <target>Currently, Native Selection Mode is supported in:</target>
-      </segment>
-    </unit>
-    <unit id="5d42ddfe-2210-4db7-83c7-cfa24e0d6487">
-      <notes>
-        <note appliesTo="source">line: 1143</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="initial">
-        <source>Mozilla Firefox</source>
-        <target>Mozilla Firefox</target>
-      </segment>
-    </unit>
-    <unit id="8fce8189-1766-4811-ab4c-a3def790a7c0">
-      <notes>
-        <note appliesTo="source">line: 1144</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="initial">
-        <source>Mozilla Thunderbird</source>
-        <target>Mozilla Thunderbird</target>
-      </segment>
-    </unit>
-    <unit id="8252f830-c763-4e24-917f-93202a61aaa3">
-      <notes>
-        <note appliesTo="source">line: 1145</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="initial">
-        <source>Chrome, Edge, and any browser based on Chromium 134 or newer</source>
-        <target>Chrome, Edge, and any browser based on Chromium 134 or newer</target>
       </segment>
     </unit>
     <unit id="0c220da6-bf37-40be-b1a7-95859acd96c7">
@@ -18403,95 +18236,6 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <segment state="final">
         <source>This option is disabled by default.</source>
         <target>Початково цю функцію вимкнено.</target>
-      </segment>
-    </unit>
-    <unit id="2e579547-98dd-45a1-8bdb-c7ecd207d8ec">
-      <notes>
-        <note appliesTo="source">line: 1936</note>
-        <note appliesTo="source">prefix: ##### </note>
-        <note appliesTo="source">suffix:  {#ReportLanguage}</note>
-      </notes>
-      <segment state="initial">
-        <source>Report language changes while reading</source>
-        <target>Report language changes while reading</target>
-      </segment>
-    </unit>
-    <unit id="27a2be3f-0cd8-4720-80b5-045fdd800a6a">
-      <notes>
-        <note appliesTo="source">line: 1938</note>
-      </notes>
-      <segment state="initial">
-        <source>This checkbox allows you to toggle whether NVDA should report the detected language of the text being read, when the language changes from the default language.</source>
-        <target>This checkbox allows you to toggle whether NVDA should report the detected language of the text being read, when the language changes from the default language.</target>
-      </segment>
-    </unit>
-    <unit id="c9eef931-329a-425d-b683-747d7c5aaa43">
-      <notes>
-        <note appliesTo="source">line: 1939</note>
-      </notes>
-      <segment state="initial">
-        <source>The language configured to be used by default won't be reported.</source>
-        <target>The language configured to be used by default won't be reported.</target>
-      </segment>
-    </unit>
-    <unit id="2e2a5c09-cfd4-4ecf-9c39-123113572c55">
-      <notes>
-        <note appliesTo="source">line: 1940</note>
-      </notes>
-      <segment state="initial">
-        <source>This option is disabled by default.</source>
-        <target>This option is disabled by default.</target>
-      </segment>
-    </unit>
-    <unit id="dca05445-b770-4ce7-84f0-1037238292bd">
-      <notes>
-        <note appliesTo="source">line: 1942</note>
-        <note appliesTo="source">prefix: ##### </note>
-        <note appliesTo="source">suffix:  {#ReportIfLanguageIsNotSupportedBySynthesizer}</note>
-      </notes>
-      <segment state="initial">
-        <source>Report when switching to language is not supported by synthesizer</source>
-        <target>Report when switching to language is not supported by synthesizer</target>
-      </segment>
-    </unit>
-    <unit id="9a62c631-a1f0-4d9c-a4e1-83a6a6b46ad7">
-      <notes>
-        <note appliesTo="source">line: 1944</note>
-      </notes>
-      <segment state="initial">
-        <source>This combo box is used to set how NVDA should report if the language of the text being read is not supported by the current synthesizer.</source>
-        <target>This combo box is used to set how NVDA should report if the language of the text being read is not supported by the current synthesizer.</target>
-      </segment>
-    </unit>
-    <unit id="ecf0b1e9-0397-4487-81c6-feb248196b60">
-      <notes>
-        <note appliesTo="source">line: 1945</note>
-      </notes>
-      <segment state="initial">
-        <source>If [Automatic Language switching](#SpeechSettingsLanguageSwitching) is disabled, this option won't take effect, and the combo box will be readonly.</source>
-        <target>If [Automatic Language switching](#SpeechSettingsLanguageSwitching) is disabled, this option won't take effect, and the combo box will be readonly.</target>
-      </segment>
-    </unit>
-    <unit id="d469ada0-a542-4cc1-a9ed-35e875f3f2db">
-      <notes>
-        <note appliesTo="source">line: 1949</note>
-        <note appliesTo="source">prefix: |</note>
-        <note appliesTo="source">suffix: |</note>
-      </notes>
-      <segment state="initial">
-        <source>Options |Speech, Beep, Off</source>
-        <target>Options |Speech, Beep, Off</target>
-      </segment>
-    </unit>
-    <unit id="c0a550dd-a9b8-445a-9fbb-dacdfbb2fb0e">
-      <notes>
-        <note appliesTo="source">line: 1950</note>
-        <note appliesTo="source">prefix: |</note>
-        <note appliesTo="source">suffix: |</note>
-      </notes>
-      <segment state="initial">
-        <source>Default |Speech</source>
-        <target>Default |Speech</target>
       </segment>
     </unit>
     <unit id="d6539579-9a7c-4b8c-9a74-93f60ea36d03">
@@ -23888,24 +23632,6 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <segment state="final">
         <source>For example, a visual line of multiple links will be presented in speech and braille as multiple links on the same line.</source>
         <target>Наприклад, візуальний рядок із кількома посиланнями промовлятиметься або відображатиметься шрифтом Брайля як кілька посилань у одному рядку.</target>
-      </segment>
-    </unit>
-    <unit id="fb544820-c9ab-405e-a86f-fdb0845e3a24">
-      <notes>
-        <note appliesTo="source">line: 2903</note>
-      </notes>
-      <segment state="initial">
-        <source>If it is disabled, interactive elements, such as links and buttons, will be placed on their own lines.</source>
-        <target>If it is disabled, interactive elements, such as links and buttons, will be placed on their own lines.</target>
-      </segment>
-    </unit>
-    <unit id="882c8f8f-f8a5-4bec-b090-80f7b7646e39">
-      <notes>
-        <note appliesTo="source">line: 2904</note>
-      </notes>
-      <segment state="initial">
-        <source>Non-interactive text following a link or button will still follow on the same line for ease of reading.</source>
-        <target>Non-interactive text following a link or button will still follow on the same line for ease of reading.</target>
       </segment>
     </unit>
     <unit id="59a0bc09-8375-4193-a781-c49e77954009">
@@ -31483,15 +31209,6 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <target>Консоль Python, яка розташована у підменю «Інструменти» — це інструмент розробників, який використовується для налагодження, огляду внутрішнього коду NVDA та доступності ієрархії сторонніх застосунків.</target>
       </segment>
     </unit>
-    <unit id="87b7657c-0d87-4eba-ad96-65ea11eddc98">
-      <notes>
-        <note appliesTo="source">line: 4073</note>
-      </notes>
-      <segment state="initial">
-        <source>For more information, please see the [NVDA Developer Guide](https://download.nvaccess.org/documentation/developerGuide.html).</source>
-        <target>For more information, please see the [NVDA Developer Guide](https://download.nvaccess.org/documentation/developerGuide.html).</target>
-      </segment>
-    </unit>
     <unit id="fbe34ff0-4e78-4297-9007-77e91341c6ec">
       <notes>
         <note appliesTo="source">line: 4075</note>
@@ -32294,16 +32011,6 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <segment state="final">
         <source>Tivomatic Caiku Albatross 46/80 displays</source>
         <target>дисплеї Tivomatic Caiku Albatross 46/80</target>
-      </segment>
-    </unit>
-    <unit id="049c01c2-6e9f-44c6-99cf-65b6b2266223">
-      <notes>
-        <note appliesTo="source">line: 4201</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="initial">
-        <source>NLS eReader Zoomax</source>
-        <target>NLS eReader Zoomax</target>
       </segment>
     </unit>
     <unit id="d7e1031f-650d-4665-9f85-11c88b02572e">
@@ -34716,16 +34423,6 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <segment state="final">
         <source>Humanware BrailleOne</source>
         <target>Humanware BrailleOne</target>
-      </segment>
-    </unit>
-    <unit id="93054cb1-2826-43d2-a194-48350b04fa62">
-      <notes>
-        <note appliesTo="source">line: 4514</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="initial">
-        <source>NLS eReader HumanWare</source>
-        <target>NLS eReader HumanWare</target>
       </segment>
     </unit>
     <unit id="49903d1d-e929-4589-8ebd-060ce49a6d00">
@@ -41751,201 +41448,6 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <segment state="final">
         <source>`Windows+i` key (Windows settings) |`attribute4`</source>
         <target>Комбінація `Windows+i` (налаштування Windows) |`attribute4`</target>
-      </segment>
-    </unit>
-    <unit id="27785a68-9a4e-44ec-90a9-ff3aac93ae95">
-      <notes>
-        <note appliesTo="source">line: 5377</note>
-        <note appliesTo="source">prefix: ### </note>
-        <note appliesTo="source">suffix:  {#Zoomax}</note>
-      </notes>
-      <segment state="initial">
-        <source>NLS eReader Zoomax</source>
-        <target>NLS eReader Zoomax</target>
-      </segment>
-    </unit>
-    <unit id="62c5e86b-8b90-4fd3-bb75-0a4c8c0a8644">
-      <notes>
-        <note appliesTo="source">line: 5379</note>
-      </notes>
-      <segment state="initial">
-        <source>The NLS eReader Zoomax device supports USB or bluetooth connections.</source>
-        <target>The NLS eReader Zoomax device supports USB or bluetooth connections.</target>
-      </segment>
-    </unit>
-    <unit id="149e40fa-2125-40f4-a9a9-8e76179f0598">
-      <notes>
-        <note appliesTo="source">line: 5380</note>
-      </notes>
-      <segment state="initial">
-        <source>The Windows 10 and Windows 11 operating systems will automatically detect and install the necessary drivers for this display.</source>
-        <target>The Windows 10 and Windows 11 operating systems will automatically detect and install the necessary drivers for this display.</target>
-      </segment>
-    </unit>
-    <unit id="0481c658-1b1c-4e60-9721-af42e0f1f597">
-      <notes>
-        <note appliesTo="source">line: 5381</note>
-      </notes>
-      <segment state="initial">
-        <source>For computers where the Internet connection is disabled or not available, you can manually [download and install the USB to serial CH340 chip driver](https://www.wch-ic.com/downloads/CH341SER_EXE.html) to support this display over USB.</source>
-        <target>For computers where the Internet connection is disabled or not available, you can manually [download and install the USB to serial CH340 chip driver](https://www.wch-ic.com/downloads/CH341SER_EXE.html) to support this display over USB.</target>
-      </segment>
-    </unit>
-    <unit id="bc966963-e8fc-4429-96ce-251f7107a6b7">
-      <notes>
-        <note appliesTo="source">line: 5383</note>
-      </notes>
-      <segment state="initial">
-        <source>By default, NVDA can automatically detect and connect to this display via USB or bluetooth.</source>
-        <target>By default, NVDA can automatically detect and connect to this display via USB or bluetooth.</target>
-      </segment>
-    </unit>
-    <unit id="37efd470-b802-47e5-8407-48b1b9c16986">
-      <notes>
-        <note appliesTo="source">line: 5384</note>
-      </notes>
-      <segment state="initial">
-        <source>However, when configuring the display, you can also explicitly select "USB" or "Bluetooth" ports to restrict the connection type to be used.</source>
-        <target>However, when configuring the display, you can also explicitly select "USB" or "Bluetooth" ports to restrict the connection type to be used.</target>
-      </segment>
-    </unit>
-    <unit id="a92f7c03-f970-4e78-8d54-d496a53350ee">
-      <notes>
-        <note appliesTo="source">line: 5386</note>
-      </notes>
-      <segment state="initial">
-        <source>Following are the key assignments for this display with NVDA.</source>
-        <target>Following are the key assignments for this display with NVDA.</target>
-      </segment>
-    </unit>
-    <unit id="8d84a6a4-39bd-40c6-af9c-2752e882621b">
-      <notes>
-        <note appliesTo="source">line: 5387</note>
-      </notes>
-      <segment state="initial">
-        <source>Please see the display's documentation for descriptions of where these keys can be found.</source>
-        <target>Please see the display's documentation for descriptions of where these keys can be found.</target>
-      </segment>
-    </unit>
-    <unit id="0ca991c7-b577-4517-bdb8-e1865eb16a80">
-      <notes>
-        <note appliesTo="source">line: 5390</note>
-        <note appliesTo="source">prefix: |</note>
-        <note appliesTo="source">suffix: |</note>
-      </notes>
-      <segment state="initial">
-        <source> Name |Key</source>
-        <target> Name |Key</target>
-      </segment>
-    </unit>
-    <unit id="c9ed18c2-bc9f-45c4-812b-9408950d7bff">
-      <notes>
-        <note appliesTo="source">line: 5392</note>
-        <note appliesTo="source">prefix: |</note>
-        <note appliesTo="source">suffix: |</note>
-      </notes>
-      <segment state="initial">
-        <source>Scroll braille display back |`d2`</source>
-        <target>Scroll braille display back |`d2`</target>
-      </segment>
-    </unit>
-    <unit id="1a1cef41-9b64-4a30-a3db-8cd16126dc99">
-      <notes>
-        <note appliesTo="source">line: 5393</note>
-        <note appliesTo="source">prefix: |</note>
-        <note appliesTo="source">suffix: |</note>
-      </notes>
-      <segment state="initial">
-        <source>Scroll braille display forward |`d5`</source>
-        <target>Scroll braille display forward |`d5`</target>
-      </segment>
-    </unit>
-    <unit id="06bb61d7-1e00-40d3-81a1-fe0f65005a7d">
-      <notes>
-        <note appliesTo="source">line: 5394</note>
-        <note appliesTo="source">prefix: |</note>
-        <note appliesTo="source">suffix: |</note>
-      </notes>
-      <segment state="initial">
-        <source>Move braille display to previous line |`d1`</source>
-        <target>Move braille display to previous line |`d1`</target>
-      </segment>
-    </unit>
-    <unit id="5023c8c7-c42f-4588-88d5-9f08423ffff4">
-      <notes>
-        <note appliesTo="source">line: 5395</note>
-        <note appliesTo="source">prefix: |</note>
-        <note appliesTo="source">suffix: |</note>
-      </notes>
-      <segment state="initial">
-        <source>Move braille display to next line |`d3`</source>
-        <target>Move braille display to next line |`d3`</target>
-      </segment>
-    </unit>
-    <unit id="fe23dbff-7013-4baf-8595-ff0b9bb476fe">
-      <notes>
-        <note appliesTo="source">line: 5396</note>
-        <note appliesTo="source">prefix: |</note>
-        <note appliesTo="source">suffix: |</note>
-      </notes>
-      <segment state="initial">
-        <source>Route to braille cell |`routing`</source>
-        <target>Route to braille cell |`routing`</target>
-      </segment>
-    </unit>
-    <unit id="e5443642-4760-484a-8f91-c0e8e58faeff">
-      <notes>
-        <note appliesTo="source">line: 5397</note>
-        <note appliesTo="source">prefix: |</note>
-        <note appliesTo="source">suffix: |</note>
-      </notes>
-      <segment state="initial">
-        <source>Up arrow key |`up`</source>
-        <target>Up arrow key |`up`</target>
-      </segment>
-    </unit>
-    <unit id="3ceee24f-58c0-4881-a882-81ce94799011">
-      <notes>
-        <note appliesTo="source">line: 5398</note>
-        <note appliesTo="source">prefix: |</note>
-        <note appliesTo="source">suffix: |</note>
-      </notes>
-      <segment state="initial">
-        <source>Down arrow key |`down`</source>
-        <target>Down arrow key |`down`</target>
-      </segment>
-    </unit>
-    <unit id="c43f022c-e767-4b08-b2d0-6b18b444a23c">
-      <notes>
-        <note appliesTo="source">line: 5399</note>
-        <note appliesTo="source">prefix: |</note>
-        <note appliesTo="source">suffix: |</note>
-      </notes>
-      <segment state="initial">
-        <source>Left arrow key |`left`</source>
-        <target>Left arrow key |`left`</target>
-      </segment>
-    </unit>
-    <unit id="325a81bd-8eae-4a45-ba28-ca678091808c">
-      <notes>
-        <note appliesTo="source">line: 5400</note>
-        <note appliesTo="source">prefix: |</note>
-        <note appliesTo="source">suffix: |</note>
-      </notes>
-      <segment state="initial">
-        <source>Right arrow key |`right`</source>
-        <target>Right arrow key |`right`</target>
-      </segment>
-    </unit>
-    <unit id="664032be-3ad6-4690-b32f-ceea143aec4f">
-      <notes>
-        <note appliesTo="source">line: 5401</note>
-        <note appliesTo="source">prefix: |</note>
-        <note appliesTo="source">suffix: |</note>
-      </notes>
-      <segment state="initial">
-        <source>Enter key |`select`</source>
-        <target>Enter key |`select`</target>
       </segment>
     </unit>
     <unit id="0475738b-d227-4c2f-bc1e-1c3cdcc9bb2a">

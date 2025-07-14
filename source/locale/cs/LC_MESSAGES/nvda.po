@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-07 04:27+0000\n"
-"PO-Revision-Date: 2025-07-07 23:52\n"
+"POT-Creation-Date: 2025-07-14 07:56+0000\n"
+"PO-Revision-Date: 2025-07-14 08:13\n"
 "Last-Translator: \n"
 "Language-Team: Czech\n"
 "Language: cs_CZ\n"
@@ -7363,14 +7363,14 @@ msgstr "Vývojové verze"
 #: addonStore\models\status.py:132
 msgctxt "addonStore"
 msgid "Enabled"
-msgstr "Povolené doplňky"
+msgstr "Povolené"
 
 #. Translators: The label of an option to filter the list of add-ons in the add-on store dialog.
 #. Translators: Status for addons shown in the add-on store dialog
 #: addonStore\models\status.py:43 addonStore\models\status.py:112
 msgctxt "addonStore"
 msgid "Disabled"
-msgstr "Zakázané doplňky"
+msgstr "Zakázané"
 
 #. Translators: Status for addons shown in the add-on store dialog
 #: addonStore\models\status.py:86
@@ -7382,7 +7382,7 @@ msgstr "Čeká na odstranění"
 #: addonStore\models\status.py:88
 msgctxt "addonStore"
 msgid "Available"
-msgstr "Dostupný"
+msgstr "Dostupné"
 
 #. Translators: Status for addons shown in the add-on store dialog
 #: addonStore\models\status.py:90
@@ -7442,43 +7442,43 @@ msgstr "Instalace se nezdařila"
 #: addonStore\models\status.py:108
 msgctxt "addonStore"
 msgid "Installed, pending restart"
-msgstr "Nainstalováno, čeká se na restart NVDA"
+msgstr "Nainstalováno, čeká se na restart Nvda"
 
 #. Translators: Status for addons shown in the add-on store dialog
 #: addonStore\models\status.py:110
 msgctxt "addonStore"
 msgid "Disabled, pending restart"
-msgstr "Zakázán, čeká se na restart NVDA"
+msgstr "Zakázáno, čeká se na restart Nvda"
 
 #. Translators: Status for addons shown in the add-on store dialog
 #: addonStore\models\status.py:116
 msgctxt "addonStore"
 msgid "Disabled (incompatible), pending restart"
-msgstr "Zakázán (nekompatibilní), čeká se na restart NVDA"
+msgstr "Zakázáno (nekompatibilní), čeká se na restart Nvda"
 
 #. Translators: Status for addons shown in the add-on store dialog
 #: addonStore\models\status.py:119
 msgctxt "addonStore"
 msgid "Disabled (incompatible)"
-msgstr "Zakázán (nekompatibilní)"
+msgstr "Zakázané (nekompatibilní)"
 
 #. Translators: Status for addons shown in the add-on store dialog
 #: addonStore\models\status.py:123
 msgctxt "addonStore"
 msgid "Enabled (incompatible), pending restart"
-msgstr "Povolen (nekompatibilní), čeká se na restart NVDA"
+msgstr "Povoleno (nekompatibilní), čeká se na restart Nvda"
 
 #. Translators: Status for addons shown in the add-on store dialog
 #: addonStore\models\status.py:126
 msgctxt "addonStore"
 msgid "Enabled (incompatible)"
-msgstr "Povolen (nekompatibilní)"
+msgstr "Povolené (nekompatibilní)"
 
 #. Translators: Status for addons shown in the add-on store dialog
 #: addonStore\models\status.py:128
 msgctxt "addonStore"
 msgid "Enabled, pending restart"
-msgstr "Povolen, čeká se na restart NVDA"
+msgstr "Povoleno, čeká se na restart Nvda"
 
 #. Translators: Status for addons shown in the add-on store dialog
 #: addonStore\models\status.py:134
@@ -11325,7 +11325,7 @@ msgstr "neviditelné"
 #. Translators: This is presented when a visited link is encountered.
 #: controlTypes\state.py:139
 msgid "visited"
-msgstr "navštíveno"
+msgstr "navštívený"
 
 #. Translators: This is presented when a link is encountered.
 #: controlTypes\state.py:141
@@ -11504,7 +11504,7 @@ msgstr "otevře strom"
 #. For example, links of a table of contents of a document with different sections.
 #: controlTypes\state.py:212
 msgid "same page"
-msgstr "stejná stránka"
+msgstr "stejný"
 
 #. Translators: This is presented when a selectable object (e.g. a list item) is not selected.
 #: controlTypes\state.py:218
@@ -15327,7 +15327,7 @@ msgstr "Katalog Doplňků"
 #: gui\addonStoreGui\controls\storeDialog.py:122
 msgctxt "addonStore"
 msgid "Install from e&xternal source"
-msgstr "Instalovat z e&externího zdroje"
+msgstr "Instalovat z &externího zdroje"
 
 #. Translators: Banner notice that is displayed in the Add-on Store.
 #: gui\addonStoreGui\controls\storeDialog.py:134
