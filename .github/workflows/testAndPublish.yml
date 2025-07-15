@@ -460,9 +460,9 @@ jobs:
       deployments: write
       discussions: write
     runs-on: ubuntu-latest
-    # TODO: temporarily disable checkPo for testing release builds
-    needs: [buildNVDA, checkPot, licenseCheck, unitTests, createLauncher, systemTests, uploadSymbols]
-    if: startsWith(github.ref_name, 'release-')
+    needs: [buildNVDA, checkPo, checkPot, licenseCheck, unitTests, createLauncher, systemTests, uploadSymbols]
+    # TODO: temporarily ignore checkPo failures for testing release builds
+    if: always() && startsWith(github.ref_name, 'release-')
     concurrency:
       group: release
       cancel-in-progress: true
