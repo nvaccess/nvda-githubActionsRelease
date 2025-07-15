@@ -23,19 +23,13 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  START_BUILD_NUMBER: 50000
+  START_BUILD_NUMBER: ${{ vars.BUILD_NUMBER_OFFSET || 0 }}
   pullRequestNumber: ${{ github.event_name == 'pull_request' && github.event.number || 0 }}
-  scons_publisher: NV Access
+  scons_publisher: ${{ vars.PUBLISHER_NAME || github.repository_owner }}
   # Don't send telemetry to Microsoft when using MSVC tooling, avoiding an unnecessary PowerShell script invocation.
   VSCMD_SKIP_SENDTELEMETRY: 1
   # Cache details about available MSVC tooling for subsequent SCons invocations to the provided file.
   SCONS_CACHE_MSVC_CONFIG: ".scons_msvc_cache.json"
-  # Comment out any of the feature_* variables to disable the respective build feature.
-  # They are checked for existence of content, not specific value.
-  # feature_uploadSymbolsToMozilla: configured
-  # feature_crowdinSync: configured
-  # feature_signing: configured
-  # feature_buildAppx: configured
 
 jobs:
   buildNVDA:
@@ -90,6 +84,35 @@ jobs:
         Write-Output VERSION_TYPE=$env:versionType >> $env:GITHUB_OUTPUT
         Write-Output NVDA_API_VERSION=$(python -c "import sys; sys.path.append('source'); from addonAPIVersion import CURRENT; print('{}.{}.{}'.format(*CURRENT))") >> $env:GITHUB_OUTPUT
         Write-Output NVDA_API_COMPAT_TO=$(python -c "import sys; sys.path.append('source'); from addonAPIVersion import BACK_COMPAT_TO; print('{}.{}.{}'.format(*BACK_COMPAT_TO))") >> $env:GITHUB_OUTPUT
+
+  checkPo:
+    name: Check po files for errors
+    runs-on: windows-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        # Include gettext
+        submodules: true
+    - name: Set up python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    - name: Install pre-commit
+      run: |
+        python -m pip install --upgrade pip
+        pip install pre-commit
+    - name: Install the latest version of uv
+      uses: astral-sh/setup-uv@v6
+    - name: Run pre-commit
+      run: |
+        # Run pre-commit on the translations
+        pre-commit run checkPo --all-files
+    - name: Add job summary
+      if: ${{ failure() }}
+      shell: bash
+      run: |
+        echo "PO files contain errors. Please fix them before merging." >> $GITHUB_STEP_SUMMARY
 
   checkPot:
     name: Check translator comments
@@ -169,8 +192,8 @@ jobs:
   crowdinUpload:
     name: Upload translations to Crowdin
     runs-on: windows-latest
-    needs: buildNVDA
-    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/beta' }}
+    needs: [buildNVDA, checkPot]
+    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/beta' && vars.CROWDIN_PROJECT_ID }}
     steps:
     - name: Checkout cached build
       if: ${{ env.feature_crowdinSync }}
@@ -179,6 +202,11 @@ jobs:
         path: ${{ github.workspace }}
         key: ${{ github.ref }}-${{ github.run_id }}
         fail-on-cache-miss: true
+    - name: Get makePot results
+      uses: actions/download-artifact@v4
+      with:
+        name: makePot results
+        path: output
     - name: Install the latest version of uv
       uses: astral-sh/setup-uv@v6
     - name: Upload translations to Crowdin
@@ -186,7 +214,7 @@ jobs:
       env:
         crowdinProjectID: ${{ vars.CROWDIN_PROJECT_ID }}
         crowdinAuthToken: ${{ secrets.CROWDIN_AUTH_TOKEN }}
-      run: uv run --with requests --directory appveyor crowdinSync.py uploadSourceFile 2 output\nvda.pot 2>&1
+      run: uv run --with requests --directory ${{ github.workspace }} appveyor\crowdinSync.py uploadSourceFile 2 output\nvda.pot 2>&1
 
   createLauncher:
     name: Create launcher
@@ -208,9 +236,15 @@ jobs:
       run: ci/scripts/setBuildVersionVars.ps1
     - name: Set scons args
       run: ci/scripts/setSconsArgs.ps1
-    - name: Prepare source code for launcher
+      env:
+        apiSigningToken: ${{ github.event_name == 'push' && secrets.API_SIGNING_TOKEN || '' }}
+    - name: Create launcher
       shell: cmd
-      run: scons %sconsOutTargets% %sconsArgs% ${{ !runner.debug && '--all-cores' || '-j1'}}
+      run: |
+        PowerShell -Command "Set-ExecutionPolicy Bypass"
+        PowerShell -Command "Set-PSRepository PSGallery -InstallationPolicy Trusted"
+        PowerShell -Command "Install-Module -Name SignPath -Force"
+        scons %sconsOutTargets% %sconsArgs% ${{ !runner.debug && '--all-cores' || '-j1'}}
     - name: Upload launcher
       id: uploadLauncher
       uses: actions/upload-artifact@v4
@@ -300,8 +334,8 @@ jobs:
         annotate_only: true
         report_paths: testOutput/system/systemTests.xml
 
-  uploadSymbols:
-    name: Upload symbols
+  createSymbols:
+    name: Create symbols
     runs-on: windows-latest
     needs: buildNVDA
     steps:
@@ -320,16 +354,32 @@ jobs:
       with:
         name: Symbols
         path: output/symbols.zip
+
+  uploadSymbols:
+    name: Upload symbols
+    runs-on: windows-latest
+    needs: createSymbols
+    if: ${{ github.event_name == 'push' && vars.feature_uploadSymbolsToMozilla }}
+    steps:
+    - name: Checkout cached build
+      uses: actions/cache/restore@v4
+      with:
+        path: ${{ github.workspace }}
+        key: ${{ github.ref }}-${{ github.run_id }}
+        fail-on-cache-miss: true
     - name: Install the latest version of uv
-      if: ${{ github.event_name == 'push' && env.feature_uploadSymbolsToMozilla }}
       uses: astral-sh/setup-uv@v6
+    - name: Get symbols
+      uses: actions/download-artifact@v4
+      with:
+        name: Symbols
+        path: output
     - name: Upload symbols to Mozilla
-      if: ${{ github.event_name == 'push' && env.feature_uploadSymbolsToMozilla }}
       continue-on-error: true
       # TODO: this script should be moved to ci/scripts
-      run: uv run --with requests --directory appveyor mozillaSyms.py
+      run: uv run --with requests --directory ${{ github.workspace }} appveyor\mozillaSyms.py
       env:
-        mozillaSymsAuthToken: ${{ secrets.MOZILLA_SYMS_AUTH_TOKEN }}
+        mozillaSymsAuthToken: ${{ secrets.MOZILLA_SYMS_TOKEN }}
     - name: Warn on failure
       if: ${{ failure() }}
       shell: bash
@@ -346,7 +396,7 @@ jobs:
     name: Cleanup cache
     permissions:
       actions: write
-    needs: [checkPot, licenseCheck, unitTests, systemTests, crowdinUpload, uploadSymbols]
+    needs: [checkPot, licenseCheck, unitTests, systemTests, crowdinUpload, createSymbols]
     if: ${{ always() && (github.event_name == 'push' || github.event.pull_request.head.repo.owner == github.repository_owner) }}
     runs-on: ubuntu-latest
     steps:
@@ -410,7 +460,7 @@ jobs:
       deployments: write
       discussions: write
     runs-on: ubuntu-latest
-    needs: [buildNVDA, checkPot, licenseCheck, unitTests, createLauncher, systemTests, uploadSymbols]
+    needs: [buildNVDA, checkPo, checkPot, licenseCheck, unitTests, createLauncher, systemTests, uploadSymbols]
     if: startsWith(github.ref_name, 'release-')
     concurrency:
       group: release
